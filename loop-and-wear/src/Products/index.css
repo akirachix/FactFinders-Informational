@@ -1,0 +1,217 @@
+.products1{
+    margin-left: 150px;
+    display: flex;
+    gap: 60px;
+
+}
+.Products{
+    /* margin-left: 200px; */
+    justify-content: space-between; 
+    font-size: 30px;
+    color: #7DAB08;
+    height: 700px;
+    /* margin-right: 150px; */
+    /* margin-right: 200px; */
+    background-color: #f5dfd1;
+
+}
+#product{
+    width: 350px;
+    height: 300px;
+}
+#pillow{
+    width: 350px;
+    height: 300px;
+}
+#fish{
+    width: 350px;
+    height: 300px;
+}
+h2{
+    color: #7DAB08;
+    font-size: 50px;
+    margin-left: 800px;
+
+}
+h4{
+    margin-left: 650px;
+    font-size: 50px;
+    color: #7DAB08; 
+}
+h3{
+    color: #0F2A4F;
+    font-size: 30px;
+}
+.products{
+    margin-left: 150px;
+}
+.products2{
+    margin-left: 380px;
+    display: flex;
+    gap: 100px;
+}
+.upcycle{
+    margin-left: 200px;
+}
+#point1{
+    display: flex;
+    gap: 30px;
+    margin-left: 100px;
+}
+#explanation{
+    font-size: 20px;
+}
+#explanation3{
+    font-size: 20px;
+
+}
+#point2{
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+    margin-left: 130px;
+
+}
+#point3{
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+    margin-left: 130px;
+
+}
+#bin{
+    width: 180px;
+    height: 180px;
+}
+#shirt{
+    width: 130px;
+    height: 130px;
+    margin-top: 50px;
+}
+#bulb{
+    width: 130px;
+    height: 130px;
+    margin-top: 50px;
+
+}
+
+/* @media  screen and (min-width:280px) and (max-width: 460px) {
+    .Products{
+        margin-left: 0px;
+        font-size: 30px;
+        color: #7DAB08;
+        margin-right: 200px;
+        background-color: #f5dfd1;
+    
+    }
+    .products1{
+        margin-left: 0px;
+        display: flex;
+        gap: 0%;
+        width: 100px;
+        height: 100px;
+    
+    }
+    .products{
+        margin-left: 0px;
+        gap: 0px;
+    }
+    .products2{
+        margin-left: 0px;
+        display: flex;
+        gap: 0px;
+    
+    }
+    #pillow{
+        width: 140px;
+        height: 130px; 
+    }
+    #fish{
+        width: 150px;
+        height: 130px;
+    }
+    h2{
+        color: #7DAB08;
+        font-size: 25px;
+        margin-left: 0px;
+    
+    }
+    h1{
+        margin-left: 0px;
+        font-size: 25px;
+        color: #7DAB08; 
+    }
+    h3{
+        color: #0F2A4F;
+        font-size: 20px;
+    }
+    #bin{
+        width: 100px;
+        height: 100px;
+        margin-top: 0px;
+    }
+    #shirt{
+        width: 80px;
+        height: 80px;
+        margin-top: 0px;
+    }
+    #bulb{
+        width: 80px;
+        height: 80px;
+        margin-top: 0px;
+    
+    }
+    .upcycle{
+        margin-left: 0px;
+    }
+    #point1{
+        display: grid;
+        gap: 1px;
+        margin-left: 0px;
+    }
+    #explanation{
+        font-size: 15px;
+    }
+    #explanation3{
+        font-size: 15px;
+    
+    }
+    #point2{
+        display: grid;
+        gap: 1px;
+        font-size: 15px;
+        margin-left: 0px;
+    
+    }
+    #point3{
+        display: grid;
+        gap: 1px;
+        font-size: 18px;
+        margin-left: 0px;
+    
+    }
+
+
+
+}
+
+@media  screen and (min-width:768px) and (max-width: 912px) {
+    .Products{
+        margin-left: 0px;
+        font-size: 30px;
+        color: #7DAB08;
+        margin-right: 200px;
+        background-color: #f5dfd1;
+    
+    }
+
+    .products1{
+        margin-left: 0px;
+        display: flex;
+        gap: 0%;
+        width: 100px;
+        height: 100px;
+    
+    }
+
+} */
