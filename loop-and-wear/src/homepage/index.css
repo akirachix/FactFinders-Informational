@@ -1,0 +1,225 @@
+img{
+    width: 100px;
+    height: 80px;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.navbar{
+  gap: 60px;
+  display: flex;
+  margin-left: 100px;
+  margin-top: 80px;
+
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    font-size: x-large;
+}
+
+.nav-bar{
+    display: flex;
+    gap: 150px;
+    margin-left: 100px;
+}
+
+.homepage{
+    background-color: #F2E5DD;
+    
+}
+
+span{
+    font-size: x-large;
+    margin-right: 80px;
+    color: #7DAB08;
+}
+
+p{
+    font-size: xx-large;
+}
+
+button{
+    background-color: #0F2A4F;
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: larger;
+    margin-top: 120px;
+}
+
+.content{
+    margin-left: 200px;
+    margin-top:80px;
+
+}
+
+.donorsImg{
+    width: 850px;
+    height: 700px;
+   
+}
+
+.container{
+    display: flex;
+    margin-right: 150px;
+}
+
+h1{
+    font-size: 70px;
+}
+
+@media screen and (min-width:250px) and (max-width:600px){
+    img{
+        width: 30px;
+        height: 30px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    
+    .navbar{
+      gap: 5px;
+      display: grid;
+      margin-left: 0px;
+      margin-top: 10px;
+    
+    }
+    
+    a{
+        text-decoration: none;
+        color:black;
+        font-size: 15px;
+    }
+    
+    .nav-bar{
+        display: grid;
+        gap: 15px;
+        margin-left: 0px;
+    }
+    
+    .homepage{
+        background-color: #F2E5DD;
+        
+    }
+    
+    span{
+        font-size: 15px;
+        margin-right: 0px;
+        color: #7DAB08;
+        gap: 0px;
+    }
+    
+    p{
+        font-size: 15px;
+    }
+    
+    button{
+        background-color: #0F2A4F;
+        color: white;
+        width: 120px;
+        height: 25px;
+        font-size: 10px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    
+    .content{
+        margin-left: 0px;
+        margin-top:0px;
+    
+    }
+    
+    .donorsImg{
+        width: 180px;
+        height: 180px;
+       
+    }
+    
+    .container{
+        display: grid;
+        margin-right: 0px;
+    }
+    
+    h1{
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (min-width:601px) and (max-width:1280px){
+    img{
+        width: 40px;
+        height: 35px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    
+    .navbar{
+      gap: 20px;
+      display: flex;
+      margin-left: 100px;
+      margin-top: 20px;
+    
+    }
+    
+    a{
+        text-decoration: none;
+        color:black;
+        font-size: large;
+    }
+    
+    .nav-bar{
+        display: flex;
+        gap: 55px;
+        margin-left: 0px;
+    }
+    
+    .homepage{
+        background-color: #F2E5DD;
+        
+    }
+    
+    span{
+        font-size: large;
+        margin-right: 0px;
+        color: #7DAB08;
+        gap: 0px;
+    }
+    
+    p{
+        font-size: larger;
+    }
+    
+    button{
+        background-color: #0F2A4F;
+        color: white;
+        width: 150px;
+        height: 30px;
+        font-size: 12px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    
+    .content{
+        margin-left: 0px;
+        margin-top:0px;
+    
+    }
+    
+    .donorsImg{
+        width: 250px;
+        height: 250px;
+       
+    }
+    
+    .container{
+        display: flex;
+        margin-right: 0px;
+    }
+    
+    h1{
+        font-size: 30px;
+    }
+
+}
