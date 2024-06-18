@@ -1,0 +1,404 @@
+.Topcontact{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#contact{
+    text-align: center;
+    font-size: 50px;
+    color:#0F2A4F;
+}
+/* h1{
+    margin-left: 800px;
+    color: #0F2A4F;
+    font-size: 40px;
+} */
+h4{
+    font-size: 40px;
+    margin-left: 00px;
+    margin-right: 600px;
+}
+
+.Location{
+display: flex;
+gap: 40px;
+
+}
+
+.ContactForm{
+    margin-right: 50px;
+}
+#location{
+    border-radius: 35%;
+    height: 90px;
+    width: 70px;
+}
+
+.Mail{
+    display: flex; 
+    gap: 20px;
+
+}
+#mail{
+    border-radius: 35%;
+    height: 90px;
+    width: 70px;
+}
+.Call{
+    display: flex; 
+    gap: 20px;
+}
+#call{
+    height: 90px;
+    width: 70px;
+}
+#formpic{
+    height: 500px;
+    width: 400px;
+    margin-left: 200px;
+} 
+
+.Form{
+    display: flex;
+   justify-content: space-around;
+
+}
+.firstlastname{
+    display: flex;
+    gap: 20px;
+}
+.emailphone{
+    display: flex;
+    gap: 20px;
+}
+#button{
+    background-color: #7DAB08;
+    border-radius: 500px;
+    width: 660px;
+    height: 50px;
+    font-size: larger;
+    
+}
+input{
+    width: 300px;
+    height: 35px;
+}
+#messages{
+    width: 650px;
+    height: 90px;
+}
+.instagram{
+    width: 50px;
+}
+.linkedin{
+    /* height: 80px;
+    width: 50px;
+}
+.facebook{
+    /* height: 80px; */
+    width: 50px;
+}
+.twitter{
+    /* height: 100px; */
+    width: 50px;
+    
+}
+#connect{
+    text-align: center;
+    color: white;
+   
+}
+#icons{
+    text-align: center;
+}
+.Footer{
+   background-color: #0F2A4F;
+   padding-bottom: 15px;
+}
+.lowerfooter{
+    padding-top: 5px;
+    padding-bottom: 8px;
+    color: white;
+    background-color: #7DAB08;
+    text-align: center;
+    height: 35px;
+    font-size: 15px;
+}
+#feelfree{
+    color: #0F2A4F;
+}
+
+@media screen and (max-width:768px){
+    .Topcontact{
+        display: grid;
+         margin-left: 60px;
+        margin-right: 60px;
+    }
+    
+    #contact{
+        text-align: center;
+        font-size:30px;
+        color:#0F2A4F;
+    }
+    /* h1{
+        margin-left: 800px;
+        color: #0F2A4F;
+        font-size: 40px;
+    } */
+    h4{
+        font-size: 40px;
+        margin-left: 00px;
+        margin-right: 600px;
+    }
+    
+    .Location{
+    display: flex;
+    gap: 40px;
+    
+    }
+    
+    .ContactForm{
+        margin-left: 70px;
+    }
+    #location{
+        border-radius: 35%;
+        height: 90px;
+        width: 50px;
+    }
+    
+    .Mail{
+        display: flex; 
+        gap: 20px;
+    
+    }
+    #mail{
+        border-radius: 35%;
+        height:90px;
+        width: 70px;
+    }
+    .Call{
+        display: flex; 
+        gap: 20px;
+    }
+    #call{
+        height: 90px;
+        width: 70px;
+    }
+    #formpic{
+        height: 300px;
+        width: 400px;
+        margin-left: 20px;
+    } 
+    
+    .Form{
+    
+       flex-wrap: wrap;
+    
+    }
+    .firstlastname{
+        display: flex;
+        gap: 20px;
+    }
+    .emailphone{
+        display: flex;
+        gap: 20px;
+    }
+    #button{
+        background-color: #7DAB08;
+        border-radius: 500px;
+        width: 260px;
+        height: 50px;
+        font-size: larger;
+        
+    }
+    input{
+        width: 100px;
+        height: 35px;
+    }
+    #messages{
+        width: 250px;
+        height: 60px;
+    }
+    .instagram{
+        width: 30px;
+    }
+    .linkedin{
+        /* height: 80px; */
+        width: 30px;
+    }
+    .facebook{
+        /* height: 80px; */
+        width: 30px;
+    }
+    .twitter{
+        /* height: 100px; */
+        width: 30px;
+        
+    }
+    #connect{
+        text-align: center;
+        color: white;
+        font-size: 10px;
+       
+    }
+    #icons{
+        text-align: center;
+    }
+    .Footer{
+       background-color: #0F2A4F;
+       padding-bottom: 15px;
+    }
+    .lowerfooter{
+        padding-top: 5px;
+        padding-bottom: 8px;
+        color: white;
+        background-color: #7DAB08;
+        text-align: center;
+        height: 35px;
+        font-size: 15px;
+       
+    }
+    #feelfree{
+        color: #0F2A4F;
+        font-size: 30px;
+    }
+}
+
+
+@media screen and (max-width:1024px){
+    .Topcontact{
+        flex-wrap: wrap;
+         margin-left: 60px;
+        margin-right: 60px;
+    }
+    
+    #contact{
+        text-align: center;
+        font-size:30px;
+        color:#0F2A4F;
+    }
+    /* h1{
+        margin-left: 800px;
+        color: #0F2A4F;
+        font-size: 40px;
+    } */
+    h4{
+        font-size: 40px;
+        margin-left: 00px;
+        margin-right: 600px;
+    }
+    
+    .Location{
+    display: flex;
+    gap: 40px;
+    
+    }
+    
+    .ContactForm{
+        margin-left: 70px;
+    }
+    #location{
+        border-radius: 35%;
+        height: 90px;
+        width: 50px;
+    }
+    
+    .Mail{
+        display: flex; 
+        gap: 20px;
+    
+    }
+    #mail{
+        border-radius: 35%;
+        height:90px;
+        width: 70px;
+    }
+    .Call{
+        display: flex; 
+        gap: 20px;
+    }
+    #call{
+        height: 90px;
+        width: 70px;
+    }
+    #formpic{
+        height: 300px;
+        width: 400px;
+        margin-left: 20px;
+    } 
+    
+    .Form{
+    
+       flex-wrap: wrap;
+    
+    }
+    .firstlastname{
+        display: flex;
+        gap: 20px;
+    }
+    .emailphone{
+        display: flex;
+        gap: 20px;
+    }
+    #button{
+        background-color: #7DAB08;
+        border-radius: 500px;
+        width: 260px;
+        height: 50px;
+        font-size: larger;
+        
+    }
+    input{
+        width: 100px;
+        height: 35px;
+    }
+    #messages{
+        width: 250px;
+        height: 60px;
+    }
+    .instagram{
+        width: 30px;
+    }
+    .linkedin{
+        /* height: 80px; */
+        width: 30px;
+    }
+    .facebook{
+        /* height: 80px; */
+        width: 30px;
+    }
+    .twitter{
+        /* height: 100px; */
+        width: 30px;
+        
+    }
+    #connect{
+        text-align: center;
+        color: white;
+        font-size: 10px;
+       
+    }
+    #icons{
+        text-align: center;
+    }
+    .Footer{
+       background-color: #0F2A4F;
+       padding-bottom: 15px;
+    }
+    .lowerfooter{
+        padding-top: 5px;
+        padding-bottom: 8px;
+        color: white;
+        background-color: #7DAB08;
+        text-align: center;
+        height: 35px;
+        font-size: 12px;
+
+    }
+    #feelfree{
+        color: #0F2A4F;
+        font-size: 30px;
+    }
+}
