@@ -1,0 +1,64 @@
+#aboutus{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.globe{
+    height: 340px;
+    
+}
+span{
+  color: rgb(125,171,8); 
+  padding-left: 50%;
+  font-size:48px ;
+
+}
+#text{
+    padding-top: 3%;
+    font-size: larger;
+}
+@media screen and (min-width:280px) and (max-width:460px){
+
+      #aboutus{
+        display:grid;
+        gap: 20px;
+        justify-content: center;
+    }
+    .globe{
+        height: 170px;
+        width: 180px;
+        padding-left: 17%;
+        
+    }
+    span{
+        color: rgb(125,171,8); 
+        padding-left: 27%;
+       
+      }
+      #text{
+        padding-top: 1%;
+        font-size: medium;
+    }
+}
+    @media screen and (min-width:540px) and (max-width:720px){
+        #aboutus{
+            display:grid;
+            gap: 20px;
+            justify-content: center;
+        }
+        .globe{
+            height: 170px;
+            width: 180px;
+            padding-left: 30%;
+            
+        }
+        span{
+            color: rgb(125,171,8); 
+            padding-left:35%;
+          }
+
+    }
+
+
+
+    
