@@ -19,7 +19,7 @@ const OurTeam = () => {
                 <div>
                 <img src="/images/faith.png" alt='member-two'/>
                 <div className='caption'>
-                 <h3>Faith Munyao</h3>
+                <h3>Faith Munyao</h3>
                 <p>Software Developer</p>
                 </div>
                 </div>
@@ -36,7 +36,7 @@ const OurTeam = () => {
             <div className='image-bottom'>
 
                 <div>
-                <img src='/images/edna.png'alt='member-four.'/>
+                <img src='/images/edna.png'alt='member-four'/>
                 <div className='caption'>
                     <h3>Edna Kesa</h3>
                     <p>Software Developer</p>
