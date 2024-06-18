@@ -9,7 +9,7 @@ const Homepage = () => {
         <img src = "/images/logo.png" alt = "logo"/>
 
         <div className= "navbar">
-            <span>Home</span>
+            <span><b>Home</b></span>
             <a href = "/about.index.js">About</a><br></br>
             <a href = "/products.index.js">Products</a><br></br>
             <a href = "/team.index.js">Team</a><br></br>
@@ -18,7 +18,6 @@ const Homepage = () => {
         </div>
 
         </div>
-        <br></br><br></br><br></br><br></br>
 
          <div className='container'>
 
@@ -26,7 +25,7 @@ const Homepage = () => {
             <h1>Loop & Wear:</h1>
             <p>Revive, reimagine and reuse the art of upcycling for your garment.</p>
             <br></br>
-            <button type = "button">Lets Make It Happen</button>
+            <button type = "button">Let's Make It Happen</button>
 
         </div>
 
