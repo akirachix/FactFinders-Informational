@@ -4,18 +4,19 @@ body{
 
 
 .team{
-    color: aliceblue;
+    color: #7DAB08;
     text-align: center;
 }
 
 h2{
-    font-size: 30px;
+    font-size: 32px;
 }
 
 .images{
     display: flex;
     gap: 10%;
-    padding-left: 380px;
+    padding-top: 8px;
+    padding-left: 430px;
 }
 
 
@@ -27,14 +28,14 @@ h2{
 
 
 .image-bottom{
-    padding-top: 10px;
+    padding-top: 50px;
     display: flex;
     gap: 15%;
     padding-left: 600px;
 }
 
 .our-team img{
-    width: 280px;
+    width: 256px;
     gap: 10%;
     border-radius: 50%;
     display: flex;
