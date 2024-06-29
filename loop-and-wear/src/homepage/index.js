@@ -1,40 +1,49 @@
-import './index.css'
 
-const Homepage = () => {
-    return(
-    <div className='homepage'>
+import './index.css';
+import React, { useState } from 'react';
 
-        <div className = "nav-bar">
-
-        <img src = "/images/logo.png" alt = "logo"/>
-
-        <div className= "navbar">
-            <span><b>Home</b></span>
-            <a href = "/about.index.js">About</a><br></br>
-            <a href = "/products.index.js">Products</a><br></br>
-            <a href = "/team.index.js">Team</a><br></br>
-            <a href = "/contact.index.js">Contact</a>
-            
+function Homepage() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+  return (
+    <div>
+      <div className="navbar">
+        <div className="navbar-logo">
+          <img src="/images/logo.png" alt="Logo" id="logo" />
         </div>
-
+        <div className={`hamburger ${isMenuOpen ? 'active' : ''}`} onClick={toggleMenu}>
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
+        <ul className={`navbar-content ${isMenuOpen ? 'active' : ''}`}>
+          <li><a href="#"><b>Home</b></a></li>
+          <li><a href="#"> About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
 
-         <div className='container'>
-
-        <div id className="content">
-            <h1>Loop & Wear:</h1>
-            <p>Revive, reimagine and reuse the art of upcycling for your garment.</p>
-            <br></br>
-            <button type = "button">Let's Make It Happen</button>
-
+      <div className="Container">
+      
+        <div id='words'>
+        <h1>Loop & Wear</h1>
+    
+       <p id = "sentence">Revive, reimagine and reuse the art of upcycling for your garment.</p>
+       <br></br><br></br>
+       <button id="button"><b>Lets Make It Happen</b></button>
+        
         </div>
-
-        <img src ="/images/clothingdonation.jpeg" alt = "donors image" className='donorsImg'/>
-
-        </div>
-
+        <div >
+        <img src="/images/clothingdonation.jpeg" alt="donate" id='donors-clothing' />
+      </div>
+      </div>
 
     </div>
-)
+  );
 }
 export default Homepage;
+

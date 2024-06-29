@@ -1,226 +1,558 @@
-img{
-    width: 100px;
-    height: 80px;
-    margin-top: 40px;
-    margin-left: 100px;
+body{
+  background-color: #F2E5DD;
 }
 
-.navbar{
-  gap: 60px;
+#donors-clothing{
+  width: 700px;
+  height: 600px;
+  margin-bottom: 10%;
+}
+
+#logo{
+  width: 100px;
+  height: 100px;
+  margin-left: 75px;
+  margin-top: 20px;
+}
+
+.Container{
   display: flex;
-  margin-left: 100px;
-  margin-top: 80px;
+  font-size: 25px;
+  gap: 10%;
+  border: none;
+  margin-top: 5%;
+
+  
+}
+
+#button{
+  border: none;
+  width: 250px;
+  height: 70px;
+  background-color: #0F2A4F;
+  font-size: 20px;
+  color: #F2E5DD;
+  margin-right: 50%;
+ 
+}
+
+.navbar-logo{
+  margin-right: 100px;
 
 }
 
-a{
-    text-decoration: none;
-    color:black;
-    font-size: x-large;
-}
 
-.nav-bar{
-    display: flex;
-    gap: 150px;
-    margin-left: 100px;
-}
-
-.homepage{
-    background-color: #F2E5DD;
-    
-}
-
-span{
-    font-size: x-large;
-    margin-right: 80px;
-    color: #7DAB08;
-}
-
-p{
-    font-size: xx-large;
-}
-
-button{
-    background-color: #0F2A4F;
-    color: white;
-    width: 200px;
-    height: 50px;
-    font-size: larger;
-    margin-top: 30px;
-    border-radius: 10px;
-}
-
-.content{
-    margin-left: 200px;
-    margin-top:200px;
-
-}
-
-.donorsImg{
-    width: 850px;
-    height: 700px;
-   
-}
-
-.container{
-    display: flex;
-    margin-right: 150px;
+#words{
+  align-items: start;
+  text-align: start;
+  margin-left: 4%;
 }
 
 h1{
-    font-size: 70px;
-}
 
-@media screen and (min-width:250px) and (max-width:600px){
-    img{
-        width: 30px;
-        height: 30px;
-        margin-top: 0px;
-        margin-left: 0px;
-    }
-    
-    .navbar{
-      gap: 5px;
-      display: grid;
-      margin-left: 0px;
-      margin-top: 10px;
-    
-    }
-    
-    a{
-        text-decoration: none;
-        color:black;
-        font-size: 15px;
-    }
-    
-    .nav-bar{
-        display: grid;
-        gap: 15px;
-        margin-left: 0px;
-    }
-    
-    .homepage{
-        background-color: #F2E5DD;
-        
-    }
-    
-    span{
-        font-size: 15px;
-        margin-right: 0px;
-        color: #7DAB08;
-        gap: 0px;
-    }
-    
-    p{
-        font-size: 15px;
-    }
-    
-    button{
-        background-color: #0F2A4F;
-        color: white;
-        width: 120px;
-        height: 25px;
-        font-size: 10px;
-        margin-top: 0px;
-        margin-left: 0px;
-    }
-    
-    .content{
-        margin-left: 0px;
-        margin-top:0px;
-    
-    }
-    
-    .donorsImg{
-        width: 180px;
-        height: 180px;
-       
-    }
-    
-    .container{
-        display: grid;
-        margin-right: 0px;
-    }
-    
-    h1{
-        font-size: 15px;
-    }
+  font-size: 70px;
+  margin-top: 10%;
 
 }
 
-@media screen and (min-width:601px) and (max-width:1280px){
-    img{
-        width: 40px;
-        height: 35px;
-        margin-top: 0px;
-        margin-left: 0px;
-    }
-    
-    .navbar{
-      gap: 20px;
-      display: flex;
-      margin-left: 100px;
-      margin-top: 20px;
-    
-    }
-    
-    a{
-        text-decoration: none;
-        color:black;
-        font-size: large;
-    }
-    
-    .nav-bar{
-        display: flex;
-        gap: 55px;
-        margin-left: 0px;
-    }
-    
-    .homepage{
-        background-color: #F2E5DD;
-        
-    }
-    
-    span{
-        font-size: large;
-        margin-right: 0px;
-        color: #7DAB08;
-        gap: 0px;
-    }
-    
-    p{
-        font-size: larger;
-    }
-    
-    button{
-        background-color: #0F2A4F;
-        color: white;
-        width: 150px;
-        height: 30px;
-        font-size: 12px;
-        margin-top: 0px;
-        margin-left: 0px;
-    }
-    
-    .content{
-        margin-left: 0px;
-        margin-top:0px;
-    
-    }
-    
-    .donorsImg{
-        width: 250px;
-        height: 250px;
-       
-    }
-    
-    .container{
-        display: flex;
-        margin-right: 0px;
-    }
-    
-    h1{
-        font-size: 30px;
-    }
+.navbar {
+  display: flex;
+  gap: 40px;
+  padding-top: 10px;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 90px;
+  /* background-color: #026857; */
+  font-size: 20px;
+}
+/* .navbar-logo{
+  /* display: flex;
+  align-items: center; */
+/* } */
+.navbar-content {
+  display: flex;
+  list-style-type: none;
+  gap: 7rem;
+  margin-right: 350px;
 
 }
+.navbar-content a {
+  color: rgb(7, 0, 0);
+  text-decoration: none;
+  font-size: larger;
+}
+.navbar-content a:hover {
+  color: #021668;
+}
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background-color: rgb(104, 13, 77);
+  margin: 4px 0;
+  transition: all 0.3s ease;
+}
+.hamburger.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 480px) {
+  body{
+    background-color: #F2E5DD;
+    width: 95%;
+  }
+  
+  .navbar {
+    padding: 0.1rem;
+
+  }
+.navbar-logo{
+  margin-right: 5%;
+
+}
+
+  #logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 5%;
+   
+  }
+
+  .Container{
+    display: grid;
+    font-size: 15px;
+    gap: 0%;
+    border: none;
+    margin-top: 5%;
+
+  }
+
+  h1{
+
+    font-size: 40px;
+    margin-top: 10%;
+  
+  }
+
+  #donors-clothing{
+    width: 200px;
+    height: 200px;
+    margin-right: 150px;
+    
+  }
+
+  #button{
+    border: none;
+    width: 190px;
+    height: 50px;
+    background-color: #0F2A4F;
+    font-size: 15px;
+    color: #F2E5DD;
+    margin-right: 50%;
+   
+  }
+
+  .navbar-content {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 4.5rem;
+    left: 0;
+    width: 90%;
+    background-color:#030d14;
+    z-index: 1;
+    padding: 1rem;
+    opacity: 0.8;
+
+  }
+  .navbar-content.active {
+    display: flex;
+  }
+  .navbar-content li {
+    margin: -0.9rem ;
+  }
+  .navbar-content a {
+    color: white;
+    padding: 0.2 rem;
+    display: block;
+  }
+  .hamburger {
+    display: flex;
+    margin-right: 2%;
+  }
+}
+
+
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 680px) {
+  body{
+    background-color: #F2E5DD;
+    width: 95%;
+  }
+  
+  .navbar {
+    padding: 0.1rem;
+
+  }
+.navbar-logo{
+  margin-right: 5%;
+}
+
+  #logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 5%;
+  }
+
+  .Container{
+    display: grid;
+    font-size: 15px;
+    gap: 0%;
+    border: none;
+    margin-top: 5%;
+
+  }
+
+  h1{
+
+    font-size: 30px;
+    margin-top: 10%;
+  
+  }
+
+  #donors-clothing{
+    width: 200px;
+    height: 200px;
+    margin-right: 300px;
+    
+  }
+
+  #button{
+    border: none;
+    width: 190px;
+    height: 50px;
+    background-color: #0F2A4F;
+    font-size: 15px;
+    color: #F2E5DD;
+    margin-right: 50%;
+   
+  }
+
+  .navbar-content {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 4.5rem;
+    left: 0;
+    width: 90%;
+    background-color:#030d14;
+    z-index: 1;
+    padding: 1rem;
+    opacity: 0.8;
+
+  }
+  .navbar-content.active {
+    display: flex;
+  }
+  .navbar-content li {
+    margin: -0.9rem ;
+  }
+  .navbar-content a {
+    color: white;
+    padding: 0.2 rem;
+    display: block;
+  }
+  .hamburger {
+    display: flex;
+    margin-right: 2%;
+  }
+}
+
+
+
+@media only screen and (min-device-width: 681px) and (max-device-width: 880px) {
+  body{
+    background-color: #F2E5DD;
+    width: 95%;
+  }
+  
+  .navbar {
+    padding: 0.1rem;
+
+  }
+.navbar-logo{
+  margin-right: 5%;
+}
+
+  #logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 5%;
+  }
+
+  .Container{
+    display: flex;
+    font-size: 15px;
+    gap: 10%;
+    border: none;
+    margin-top: 5%;
+
+
+  }
+
+  h1{
+
+    font-size: 40px;
+    margin-top: 10%;
+  
+  }
+
+  #donors-clothing{
+    width: 250px;
+    height: 240px;
+    margin-right: 10px;
+    
+  }
+
+  #button{
+    border: none;
+    width: 190px;
+    height: 50px;
+    background-color: #0F2A4F;
+    font-size: 15px;
+    color: #F2E5DD;
+    margin-right: 50%;
+   
+  }
+
+  .navbar-content {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 4.5rem;
+    left: 0;
+    width: 90%;
+    background-color:#030d14;
+    z-index: 1;
+    padding: 1rem;
+    opacity: 0.8;
+
+  }
+  .navbar-content.active {
+    display: flex;
+  }
+  .navbar-content li {
+    margin: -0.9rem ;
+  }
+  .navbar-content a {
+    color: white;
+    padding: 0.2 rem;
+    display: block;
+  }
+  .hamburger {
+    display: flex;
+    margin-right: 2%;
+  }
+}
+
+
+
+@media only screen and (min-device-width: 881px) and (max-device-width: 1020px) {
+  body{
+    background-color: #F2E5DD;
+    width: 95%;
+  }
+  
+  .navbar {
+    padding: 0.1rem;
+
+  }
+.navbar-logo{
+  margin-right: 5%;
+}
+
+  #logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 5%;
+  }
+
+  .Container{
+    display: flex;
+    font-size: 15px;
+    gap: 10%;
+    border: none;
+    margin-top: 5%;
+  
+
+  }
+
+  h1{
+
+    font-size: 40px;
+    margin-top: 10%;
+  
+  }
+
+  #donors-clothing{
+    width: 290px;
+    height: 250px;
+    margin-right: 100px;
+    
+  }
+
+  #button{
+    border: none;
+    width: 190px;
+    height: 50px;
+    background-color: #0F2A4F;
+    font-size: 15px;
+    color: #F2E5DD;
+    margin-right: 50%;
+   
+  }
+
+  .navbar-content {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 4.5rem;
+    left: 0;
+    width: 90%;
+     background-color:#030d14;
+    z-index: 1;
+    padding: 1rem;
+    opacity: 0.8;
+
+  }
+  .navbar-content.active {
+    display: flex;
+  }
+  .navbar-content li {
+    margin: -0.9rem ;
+  }
+  .navbar-content a {
+    color: white;
+    padding: 0.2 rem;
+    display: block;
+  }
+  .hamburger {
+    display: flex;
+    margin-right: 2%;
+  }
+}
+
+
+
+@media only screen and (min-device-width: 1021px) and (max-device-width: 1500px) {
+  body{
+    background-color: #F2E5DD;
+    width: 95%;
+  }
+  
+  .navbar {
+    padding: 1rem;
+
+  }
+.navbar-logo{
+  margin-right: 5%;
+}
+
+  #logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 5%;
+  }
+
+  .Container{
+    display: flex;
+    font-size: 15px;
+    gap: 10%;
+    border: none;
+    margin-top: 5%;
+  
+
+  }
+
+  h1{
+
+    font-size: 40px;
+    margin-top: 10%;
+  
+  }
+
+  #donors-clothing{
+    width: 320px;
+    height: 250px;
+    margin-right: 80px;
+    
+  }
+
+  #button{
+    border: none;
+    width: 190px;
+    height: 50px;
+    background-color: #0F2A4F;
+    font-size: 15px;
+    color: #F2E5DD;
+    margin-right: 50%;
+   
+  }
+
+  .navbar-content {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 4.5rem;
+    left: 0;
+    width: 90%;
+    background-color:#030d14;
+    z-index: 1;
+    padding: 1rem;
+    opacity: 0.8;
+
+  }
+  .navbar-content.active {
+    display: flex;
+  }
+  .navbar-content li {
+    margin: -0.9rem ;
+  }
+  .navbar-content a {
+    color: white;
+    padding: 0.2 rem;
+    display: block;
+  }
+  .hamburger {
+    display: flex;
+    margin-right: 2%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
