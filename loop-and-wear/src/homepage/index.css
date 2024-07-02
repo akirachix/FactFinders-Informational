@@ -62,13 +62,9 @@ h1{
   justify-content: space-between;
   align-items: center;
   padding-right: 90px;
-  /* background-color: #026857; */
   font-size: 20px;
 }
-/* .navbar-logo{
-  /* display: flex;
-  align-items: center; */
-/* } */
+
 .navbar-content {
   display: flex;
   list-style-type: none;
@@ -82,7 +78,7 @@ h1{
   font-size: larger;
 }
 .navbar-content a:hover {
-  color: #021668;
+  color: #68024f;
 }
 .hamburger {
   display: none;
@@ -96,6 +92,7 @@ h1{
   margin: 4px 0;
   transition: all 0.3s ease;
 }
+
 .hamburger.active span:nth-child(1) {
   transform: rotate(45deg) translate(5px, 5px);
 }
@@ -106,7 +103,137 @@ h1{
   transform: rotate(-45deg) translate(5px, -5px);
 }
 
-@media only screen and (min-device-width: 280px) and (max-device-width: 480px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 290px) {
+  body{
+    background-color: #F2E5DD;
+    width: 95%;
+  }
+  
+  .navbar {
+    padding: 0.1rem;
+
+  }
+.navbar-logo{
+  margin-right: 5%;
+
+}
+
+  #logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 5%;
+   
+  }
+
+  .Container{
+    display: grid;
+    font-size: 15px;
+    gap: 0%;
+    border: none;
+    margin-top: 5%;
+
+  }
+
+  h1{
+
+    font-size: 40px;
+    margin-top: 10%;
+  
+  }
+
+  #donors-clothing{
+    width: 200px;
+    height: 200px;
+    margin-right: 150px;
+    
+  }
+
+  #button{
+    border: none;
+    width: 190px;
+    height: 50px;
+    background-color: #0F2A4F;
+    font-size: 15px;
+    color: #F2E5DD;
+    margin-right: 50%;
+   
+  }
+
+  .navbar-content {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 4.5rem;
+    left: 0;
+    width: 115%;
+    background-color:#030d14;
+    z-index: 1;
+    padding: 1rem;
+    opacity: 0.8;
+
+  }
+  .navbar-content.active {
+    display: flex;
+  }
+  .navbar-content li {
+    margin: -0.9rem ;
+  }
+  .navbar-content a {
+    color: white;
+    padding: 0.2 rem;
+    display: block;
+  }
+  .hamburger {
+    display: flex;
+    margin-right: -35%;
+  }
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 480px) {
   body{
     background-color: #F2E5DD;
     width: 95%;
@@ -188,7 +315,7 @@ h1{
   }
   .hamburger {
     display: flex;
-    margin-right: 2%;
+    margin-right: 5%;
   }
 }
 
