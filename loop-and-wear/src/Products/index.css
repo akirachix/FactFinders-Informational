@@ -1,217 +1,1187 @@
-.products1{
-    margin-left: 150px;
+.bag-chondo-lizarddoll{
+    margin-left: 220px;
     display: flex;
-    gap: 60px;
+    gap: 90px;
+    margin-top: 30px;
 
 }
-.Products{
-    /* margin-left: 200px; */
+.Products-images{
     justify-content: space-between; 
     font-size: 30px;
     color: #7DAB08;
-    height: 700px;
-    /* margin-right: 150px; */
-    /* margin-right: 200px; */
-    background-color: #f5dfd1;
+    height: 900px;
+    margin-top: 0px;
+    background-color:#f5dfd1 ;
 
 }
-#product{
-    width: 350px;
-    height: 300px;
+#chondo{
+    width: 362px;
+    height: 340px;
 }
-#pillow{
+#backbag{
+    width: 330px;
+    height: 340px;
+}
+#lizard{
+    width: 320px;
+    height: 352px;
+}
+/* #product{
     width: 350px;
     height: 300px;
+    margin-top: 20px;
+    border-radius: 100px;
+} */
+#pillow{
+    width: 550px;
+    height: 300px;
+    border-radius: 100px;
+
 }
 #fish{
     width: 350px;
-    height: 300px;
+    height: 250px;
+    border-radius: 100px;
+
 }
 h2{
     color: #7DAB08;
-    font-size: 50px;
+    font-size: 48px;
     margin-left: 800px;
 
 }
 h4{
-    margin-left: 650px;
-    font-size: 50px;
+    margin-left: 600px;
+    font-size: 48px;
     color: #7DAB08; 
 }
 h3{
     color: #0F2A4F;
-    font-size: 30px;
+    font-size: 36px;
 }
-.products{
-    margin-left: 150px;
+.upcycling-explanation{
+    margin-left: 200px;
 }
-.products2{
-    margin-left: 380px;
+.fish-pillow{
+    margin-left: 480px;
     display: flex;
     gap: 100px;
 }
 .upcycle{
     margin-left: 200px;
 }
-#point1{
+#recycle-bin{
     display: flex;
-    gap: 30px;
-    margin-left: 100px;
+    gap: 150px;
+    margin-left: 170px;
 }
-#explanation{
-    font-size: 20px;
+#bin-explanation{
+    font-size: 28px;
 }
-#explanation3{
-    font-size: 20px;
+#bulb-explanation{
+    font-size: 28px;
+}
+#shirt-explanation{
+    font-size: 28px;
 
 }
-#point2{
+#recycled-shirt{
     display: flex;
-    gap: 50px;
+    gap: 150px;
     font-size: 20px;
-    margin-left: 130px;
+    margin-left: 200px;
 
 }
-#point3{
+#recycled-bulb{
     display: flex;
-    gap: 50px;
+    gap: 130px;
     font-size: 20px;
-    margin-left: 130px;
+    margin-left: 200px;
 
 }
 #bin{
-    width: 180px;
-    height: 180px;
+    width: 168px;
+    height: 156px;
 }
 #shirt{
-    width: 130px;
-    height: 130px;
+    width: 121px;
+    height: 121px;
     margin-top: 50px;
 }
 #bulb{
-    width: 130px;
-    height: 130px;
+    width: 138px;
+    height: 133px;
     margin-top: 50px;
 
 }
 
-/* @media  screen and (min-width:280px) and (max-width: 460px) {
-    .Products{
-        margin-left: 0px;
-        font-size: 30px;
+@media  screen and (min-width:280px) and (max-width: 460px) {
+    .Products-images{
+        justify-content: space-between; 
+        font-size: 20px;
         color: #7DAB08;
-        margin-right: 200px;
-        background-color: #f5dfd1;
+        height: 300px;
+        margin-top: 0px;
+        width: 280px;
+        background-color:#f5dfd1 ;
     
     }
-    .products1{
-        margin-left: 0px;
+    #shirt-explanation{
+        font-size: 15px;
+        margin-left: 10px;
+    
+    }
+    #chondo{
+        width: 80px;
+        height: 80px;
+    }
+    #backbag{
+        width: 80px;
+        height: 80px;
+    }
+    #lizarddoll{
+        width: 80px;
+        height: 80px;
+    }
+    .bag-chondo-lizarddoll{
+        margin-left: 10px;
         display: flex;
-        gap: 0%;
+        gap: 5%;
         width: 100px;
-        height: 100px;
+        height: 80px;
+        margin-bottom: 0px;
     
     }
-    .products{
+    .upcycling-explanation{
         margin-left: 0px;
         gap: 0px;
     }
-    .products2{
-        margin-left: 0px;
+    .fish-pillow{
+        margin-left: 40px;
         display: flex;
-        gap: 0px;
+        margin-top: 0px;
+        gap: 20px;
     
     }
     #pillow{
-        width: 140px;
-        height: 130px; 
+        width: 100px;
+        height: 100px; 
     }
     #fish{
-        width: 150px;
-        height: 130px;
+        width: 100px;
+        height: 100px;
     }
-    h2{
+    /* h2{
         color: #7DAB08;
-        font-size: 25px;
+        font-size: 20px;
         margin-left: 0px;
     
+    } */
+    h2{
+        color: #7DAB08;
+        font-size: 20px;
+        margin-left: 90px;
+    
     }
-    h1{
-        margin-left: 0px;
-        font-size: 25px;
+    h4{
+        margin-left: 70px;
+        font-size: 20px;
         color: #7DAB08; 
     }
     h3{
         color: #0F2A4F;
         font-size: 20px;
     }
-    #bin{
-        width: 100px;
-        height: 100px;
-        margin-top: 0px;
-    }
     #shirt{
         width: 80px;
         height: 80px;
         margin-top: 0px;
+        margin-left: 90px;
+
     }
     #bulb{
         width: 80px;
         height: 80px;
         margin-top: 0px;
+        margin-left: 90px;
     
     }
     .upcycle{
         margin-left: 0px;
     }
-    #point1{
+    #recycle-bin{
         display: grid;
         gap: 1px;
         margin-left: 0px;
     }
-    #explanation{
+    #bin-explanation{
         font-size: 15px;
+        margin-left: 8px;
     }
-    #explanation3{
+    #bulb-explanation{
         font-size: 15px;
-    
-    }
-    #point2{
-        display: grid;
-        gap: 1px;
-        font-size: 15px;
-        margin-left: 0px;
-    
-    }
-    #point3{
-        display: grid;
-        gap: 1px;
-        font-size: 18px;
-        margin-left: 0px;
-    
-    }
+        margin-left: 8px;
 
+    
+    }
+    #recycled-shirt{
+        display: grid;
+        gap: 1px;
+        font-size: 15px;
+        margin-left: 0px;
+    
+    }
+    #recycled-bulb{
+        display: grid;
+        gap: 1px;
+        font-size: 15px;
+        margin-left: 0px;
+    
+    }
+    #bin{
+        width: 100px;
+        height: 100px;
+        margin-left: 80px;
+
+    }
+}
+@media  screen and (min-width:360px) and (max-width: 400px) {
+    .bag-chondo-lizarddoll{
+        margin-left: 0px;
+        display: flex;
+        gap: 25%;
+        width: 110px;
+        height: 80px;
+        margin-bottom: 0px;
+    
+    }
+    .Products-images{
+        justify-content: space-between; 
+        font-size: 20px;
+        color: #7DAB08;
+        height: 300px;
+        margin-top: 0px;
+        width: 370px;
+        background-color:#f5dfd1 ;
+    
+    }
+    .fish-pillow{
+        margin-left: 60px;
+        display: flex;
+        gap: 45px;
+        margin-top: 0px;
+    }
+    h2{
+        color: #7DAB08;
+        font-size: 26px;
+        margin-left: 120px;
+    }
+    h4{
+        margin-left: 80px;
+        font-size: 25px;
+        color: #7DAB08; 
+    }
+    #bin{
+        margin-left: 115px;
+    }
+    
+    #shirt{
+        margin-left: 115px;
+    }
+    #bulb{
+        margin-left: 115px;
+
+    }
+    #recycle-bin{
+        margin-left: 13px;
+    }
+    #recycled-shirt{
+        margin-left: 13px;
+    }
+    #recycled-bulb{
+        margin-left: 7px;
+    }
+}
+@media  screen and (min-width:401px) and (max-width: 460px) {
+    .bag-chondo-lizarddoll{
+        margin-left: 7px;
+        display: flex;
+        gap: 40%;
+        width: 100px;
+        height: 80px;
+        margin-bottom: 0px;
+    
+    }
+    .Products-images{
+        justify-content: space-between; 
+        font-size: 20px;
+        color: #7DAB08;
+        height: 300px;
+        margin-top: 0px;
+        width: 410px;
+        background-color:#f5dfd1 ;
+    
+    }
+    .fish-pillow{
+        margin-left: 70px;
+        display: flex;
+        gap: 45px;
+        margin-top: 0px;
+    }
+    h2{
+        color: #7DAB08;
+        font-size: 26px;
+        margin-left: 140px;
+    }
+    h4{
+        margin-left: 120px;
+        font-size: 25px;
+        color: #7DAB08; 
+    }
+    #bin{
+        margin-left: 155px;
+    }
+    #shirt{
+        margin-left: 155px;
+    }
+    #bulb{
+        margin-left: 155px;
+    }
+    #recycled-shirt{
+        display: grid;
+        gap: 1px;
+        font-size: 15px;
+        margin-left: 0px;
+    
+    }
+    #recycle-bin{
+        margin-left: 10px;
+    }
+    #recycled-bulb{
+        display: grid;
+        gap: 1px;
+        font-size: 15px;
+        margin-left: 10px;
+    
+    }
+}
+@media  screen and (min-width:412px) and (max-width: 413px) {
+    .Products-images{
+        justify-content: space-between; 
+        font-size: 20px;
+        color: #7DAB08;
+        height: 400px;
+        margin-top: 0px;
+        width: 25px;
+        background-color:#f5dfd1 ;
+    
+    }
 
 
 }
 
 @media  screen and (min-width:768px) and (max-width: 912px) {
-    .Products{
-        margin-left: 0px;
-        font-size: 30px;
+    .Products-images{
+        justify-content: space-between; 
+        font-size: 20px;
         color: #7DAB08;
-        margin-right: 200px;
-        background-color: #f5dfd1;
+        height: 400px;
+        margin-top: 0px;
+        width: 765px;
+        background-color:#f5dfd1 ;
     
     }
+    #shirt-explanation{
+        font-size: 25px;
+        margin-left: 20px;
 
-    .products1{
-        margin-left: 0px;
+    
+    }
+    #chondo{
+        width: 150px;
+        height: 150px;
+    }
+    #backbag{
+        width: 150px;
+        height: 150px;
+    }
+    #lizarddoll{
+        width: 150px;
+        height: 150px;
+    }
+    .bag-chondo-lizarddoll{
+        margin-left: 30px;
         display: flex;
-        gap: 0%;
+        gap: 65%;
+        width: 100px;
+        height: 80px;
+        margin-bottom: 0px;
+    
+    }
+    .upcycling-explanation{
+        margin-left: 0px;
+        gap: 0px;
+    }
+    .fish-pillow{
+        margin-left: 150px;
+        display: flex;
+        gap: 95px;
+        margin-top: 80px;
+    
+    }
+    #pillow{
+        width: 150px;
+        height: 150px; 
+    }
+    #fish{
+        width: 150px;
+        height: 150px;
+    }
+    h2{
+        color: #7DAB08;
+        font-size: 36px;
+        margin-left: 300px;
+    
+    }
+    
+    h4{
+        margin-left: 250px;
+        font-size: 30px;
+        color: #7DAB08; 
+    }
+    h3{
+        color: #0F2A4F;
+        font-size: 30px;
+        margin-left: 20px;
+
+        
+    }
+    #shirt{
         width: 100px;
         height: 100px;
+        margin-top: 0px;
+        margin-left: 290px;
+    }
+    #bulb{
+        width: 100px;
+        height: 100px;
+        margin-top: 0px;
+        margin-left: 290px;
+
+    
+    }
+    .upcycle{
+        margin-left: 0px;
+    }
+    #recycle-bin{
+        display: grid;
+        gap: 5px;
+        margin-left: 30px;
+    }
+    #bin-explanation{
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    #bulb-explanation{
+        font-size: 25px;
+        margin-left: 20px;
+
+    
+    }
+    #recycled-shirt{
+        display: grid;
+        gap: 1px;
+        font-size: 15px;
+        margin-left: 20px;
+    
+    }
+    #recycled-bulb{
+        display: grid;
+        gap: 1px;
+        font-size: 15px;
+        margin-left: 0px;
+    
+    }
+    #bin{
+        width: 120px;
+        height: 120px;
+        margin-left: 270px;
+
+    }
+}  
+@media  screen and (min-width:901px) and (max-width: 912px) {
+    .Products-images{
+        
+        font-size: 20px;
+        color: #7DAB08;
+        height: 490px;
+        margin-top: 0px;
+        width: 901px;
+        /* background-color:#f5dfd1 ; */
+    }
+    #recycle-bin{
+        display: grid;
+        gap: 5px;
+        margin-left: 0px;
+    }
+    #bin-explanation{
+        font-size: 35px;
+        margin-left: 30px;
+    }
+    #bulb-explanation{
+        font-size: 35px;
+        margin-left: 30px;
+    }
+
+    #bin{
+        width: 140px;
+        height: 140px;
+        margin-left: 360px;
+
+    }
+    .bag-chondo-lizarddoll{
+        margin-left: 50px;
+        display: flex;
+        gap: 65%;
+        width: 100px;
+        height: 80px;
+        margin-bottom: 0px;
+    
+    }
+  
+    .fish-pillow{
+        margin-left: 190px;
+        display: flex;
+        gap: 95px;
+        margin-top: 80px;
+    
+    }
+   
+    #shirt-explanation{
+        font-size: 35px;
+        margin-left: 20px;
+
+    
+    }
+    #chondo{
+        width: 200px;
+        height: 200px;
+    }
+    #backbag{
+        width: 200px;
+        height: 200px;
+    }
+    #lizarddoll{
+        width: 200px;
+        height: 200px;
+    }
+    
+    .fish-pillow{
+        margin-left: 90px;
+        display: flex;
+        gap: 95px;
+        margin-top: 100px;
+    
+    }
+    #pillow{
+        width: 200px;
+        height: 180px; 
+    }
+    #fish{
+        width: 200px;
+        height: 200px;
+    }
+    h2{
+        color: #7DAB08;
+        font-size: 46px;
+        margin-left: 350px;
+    
+    }
+    
+    h4{
+        margin-left: 280px;
+        font-size: 45px;
+        color: #7DAB08; 
+    }
+    h3{
+        color: #0F2A4F;
+        font-size: 40px;
+        margin-left: 20px;
+
+        
+    }
+    #shirt{
+        width: 120px;
+        height: 120px;
+        margin-top: 0px;
+        margin-left: 360px;
+    }
+    #bulb{
+        width: 120px;
+        height: 120px;
+        margin-top: 0px;
+        margin-left: 360px;
+
+    
+    }
+}
+
+@media  screen and (min-width:461px) and (max-width: 767px) {
+    .Products-images{
+        
+        font-size: 20px;
+        color: #7DAB08;
+        height: 400px;
+        margin-top: 0px;
+        width: 537px;
+        /* background-color:#f5dfd1 ; */
+    
+    }
+    #explanation2{
+        font-size: 25px;
+    
+    }
+    #chondo{
+        width: 150px;
+        height: 150px;
+    }
+    #backbag{
+        width: 150px;
+        height: 150px;
+    }
+    #lizarddoll{
+        width: 150px;
+        height: 150px;
+    }
+    .bag-chondo-lizarddoll{
+        margin-left: 0px;
+        display: flex;
+        gap: 20%;
+        width: 100px;
+        height: 80px;
+        margin-bottom: 0px;
+    
+    }
+    .upcycling-explanation{
+        margin-left: 0px;
+        gap: 0px;
+    }
+    .fish-pillow{
+        margin-left: 90px;
+        display: flex;
+        gap: 95px;
+        margin-top: 80px;
+    
+    }
+    #pillow{
+        width: 150px;
+        height: 150px; 
+    }
+    #fish{
+        width: 150px;
+        height: 150px;
+    }
+    h2{
+        color: #7DAB08;
+        font-size: 36px;
+        margin-left: 200px;
+    
+    }
+    
+    h4{
+        margin-left: 00px;
+        font-size: 30px;
+        color: #7DAB08; 
+        margin-left: 160px;
+        margin-bottom: 20px;
+    }
+    h3{
+        color: #0F2A4F;
+        font-size: 25px;
+        margin-left: 5px;
+    }
+    #shirt{
+        width: 100px;
+        height: 100px;
+        margin-top: 0px;
+        margin-left: 180px;
+
+    }
+    #bulb{
+        width: 100px;
+        height: 100px;
+        margin-top: 0px;
+        margin-left: 180px;
+    
+    }
+    .upcycle{
+        margin-left: 0px;
+    }
+    #recycle-bin{
+        display: grid;
+        gap: 5px;
+        margin-left:20px;
+    }
+    #bin-explanation{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    #bulb-explanation{
+        font-size: 20px;
+        margin-left: 10px;
+    
+    }
+    #recycled-shirt{
+        display: grid;
+        gap: 1px;
+        font-size: 25px;
+        margin-left: 22px;
+    
+    }
+    #recycled-bulb{
+        display: grid;
+        gap: 1px;
+        font-size: 25px;
+        margin-left: 15px;
+    
+    }
+    #bin{
+        width: 120px;
+        height: 120px;
+        margin-left: 180px;
+
+    }
+#shirt-explanation{
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+}
+@media  screen and (min-width:820px) and (max-width: 900px) {
+    .Products-images{
+        
+        font-size: 20px;
+        color: #7DAB08;
+        height: 450px;
+        margin-top: 0px;
+        width: 800px;
+        /* background-color:#f5dfd1 ; */
+    
+    }
+    .bag-chondo-lizarddoll{
+        margin-left: 20px;
+        display: flex;
+        gap: 80%;
+        width: 100px;
+        height: 80px;
+        margin-bottom: 0px;
+    
+    }
+  
+    .fish-pillow{
+        margin-left: 190px;
+        display: flex;
+        gap: 95px;
+        margin-top: 80px;
+    
+    }
+    #recycle-bin{
+        display: grid;
+        gap: 5px;
+        margin-left: 40px;
+    }
+   
+    #bin-explanation{
+        font-size: 25px;
+        margin-left: 30px;
+    }
+    #explanation3{
+        font-size: 25px;
+        margin-left: 30px;
+    }
+}
+
+@media  screen and (min-width:913px) and (max-width: 1010px) {
+    .bag-chondo-lizarddoll{
+        margin-left: 0px;
+        display: flex;
+        gap: 0px;
+        margin-top: 30px;
+    
+    }
+    .Products-images{
+        justify-content: space-between; 
+        font-size: 30px;
+        color: #7DAB08;
+        height: 900px;
+        margin-top: 0px;
+        background-color:#f5dfd1 ;
+    
+    }
+    #chondo{
+        width: 362px;
+        height: 340px;
+    }
+    #backbag{
+        width: 330px;
+        height: 340px;
+    }
+    #lizard{
+        width: 320px;
+        height: 352x;
+    }
+ 
+    #pillow{
+        width: 550px;
+        height: 300px;
+        border-radius: 100px;
+    
+    }
+    #fish{
+        width: 350px;
+        height: 300px;
+        border-radius: 100px;
+    
+    }
+    h2{
+        color: #7DAB08;
+        font-size: 40px;
+        margin-left: 390px;
+    
+    }
+    h4{
+        margin-left: 350px;
+        font-size: 40px;
+        color: #7DAB08; 
+    }
+    h3{
+        color: #0F2A4F;
+        font-size: 35px;
+    }
+    .upcycling-explanation{
+        margin-left: 00px;
+    }
+    .fish-pillow{
+        margin-left: 80px;
+        display: flex;
+        gap: 10px;
+    }
+    .upcycle{
+        margin-left: 00px;
+    }
+    #recycle-bin{
+        display: flex;
+        gap: 30px;
+        margin-left: 25px;
+    }
+    #bin-explanation{
+        font-size: 35px;
+    }
+    #bulb-explanation{
+        font-size: 35px;
+    }
+    #shirt-explanation{
+        font-size: 35px;
+    
+    }
+    #recycled-shirt{
+        display: flex;
+        gap: 50px;
+        font-size: 20px;
+        margin-left: 45px;
+    
+    }
+    #recycled-bulb{
+        display: flex;
+        gap: 50px;
+        font-size: 20px;
+        margin-left: 40px;
+    
+    }
+    #bin{
+        width: 160px;
+        height: 156px;
+    }
+    #shirt{
+        width: 111px;
+        height: 111px;
+        margin-top: 50px;
+    }
+    #bulb{
+        width: 120px;
+        height: 120px;
+        margin-top: 50px;
     
     }
 
-} */
+
+}
+@media  screen and (min-width:1024px) and (max-width: 1279px) {
+    .bag-chondo-lizarddoll{
+        margin-left: 0px;
+        display: flex;
+        gap: 0px;
+        margin-top: 30px;
+    
+    }
+    .Products-images{
+        justify-content: space-between; 
+        font-size: 30px;
+        color: #7DAB08;
+        height: 900px;
+        margin-top: 0px;
+        background-color:#f5dfd1 ;
+    
+    }
+    #chondo{
+        width: 352px;
+        height: 320px;
+    }
+    #backbag{
+        width: 300px;
+        height: 310px;
+    }
+    #lizard{
+        width: 300px;
+        height: 332x;
+    }
+ 
+    #pillow{
+        width: 550px;
+        height: 300px;
+        border-radius: 100px;
+    
+    }
+    #fish{
+        width: 330px;
+        height: 300px;
+        border-radius: 100px;
+    
+    }
+    h2{
+        color: #7DAB08;
+        font-size: 40px;
+        margin-left: 390px;
+    
+    }
+    h4{
+        margin-left: 350px;
+        font-size: 40px;
+        color: #7DAB08; 
+    }
+    h3{
+        color: #0F2A4F;
+        font-size: 30px;
+    }
+    .upcycling-explanation{
+        margin-left: 00px;
+    }
+    .fish-pillow{
+        margin-left: 80px;
+        display: flex;
+        gap: 10px;
+    }
+    .upcycle{
+        margin-left: 00px;
+    }
+    #recycle-bin{
+        display: flex;
+        gap: 30px;
+        margin-left: 0px;
+    }
+    #bin-explanation{
+        font-size: 28px;
+    }
+    #bulb-explanation{
+        font-size: 28px;
+    }
+    #shirt-explanation{
+        font-size: 28px;
+    
+    }
+    #recycled-shirt{
+        display: flex;
+        gap: 50px;
+        font-size: 20px;
+        margin-left: 25px;
+    
+    }
+    #recycled-bulb{
+        display: flex;
+        gap: 50px;
+        font-size: 20px;
+        margin-left: 25px;
+    
+    }
+    #bin{
+        width: 160px;
+        height: 156px;
+    }
+    #shirt{
+        width: 110px;
+        height: 110px;
+        margin-top: 50px;
+    }
+    #bulb{
+        width: 120px;
+        height: 120px;
+        margin-top: 50px;
+    
+    }
+
+
+}
+@media  screen and (min-width:1280px) and (max-width: 1380px) {
+
+    .bag-chondo-lizarddoll{
+        margin-left: 50px;
+        display: flex;
+        gap: 50px;
+        margin-top: 30px;
+    
+    }
+    .Products-images{
+        justify-content: space-between; 
+        font-size: 30px;
+        color: #7DAB08;
+        height: 900px;
+        margin-top: 0px;
+        background-color:#f5dfd1 ;
+        width: 1280px;
+    
+    }
+    #chondo{
+        width: 362px;
+        height: 340px;
+    }
+    #backbag{
+        width: 330px;
+        height: 340px;
+    }
+    #lizard{
+        width: 320px;
+        height: 352x;
+    }
+ 
+    #pillow{
+        width: 550px;
+        height: 300px;
+        border-radius: 100px;
+    
+    }
+    #fish{
+        width: 350px;
+        height: 300px;
+        border-radius: 100px;
+    
+    }
+    h2{
+        color: #7DAB08;
+        font-size: 40px;
+        margin-left: 550px;
+    
+    }
+    h4{
+        margin-left: 550px;
+        font-size: 40px;
+        color: #7DAB08; 
+    }
+    h3{
+        color: #0F2A4F;
+        font-size: 30px;
+    }
+    .upcycling-explanation{
+        margin-left: 00px;
+    }
+    .fish-pillow{
+        margin-left: 220px;
+        display: flex;
+        gap: 10px;
+    }
+    .upcycle{
+        margin-left: 00px;
+    }
+    #recycle-bin{
+        display: flex;
+        gap: 30px;
+        margin-left: 180px;
+    }
+    #bin-explanation{
+        font-size: 25px;
+    }
+    #bulb-explanation{
+        font-size: 25px;
+    }
+    #shirt-explanation{
+        font-size: 25px;
+    
+    }
+    #recycled-shirt{
+        display: flex;
+        gap: 50px;
+        font-size: 20px;
+        margin-left: 200px;
+    
+    }
+    #recycled-bulb{
+        display: flex;
+        gap: 50px;
+        font-size: 20px;
+        margin-left: 200px;
+    
+    }
+    #bin{
+        width: 160px;
+        height: 156px;
+    }
+    #shirt{
+        width: 111px;
+        height: 111px;
+        margin-top: 50px;
+    }
+    #bulb{
+        width: 120px;
+        height: 120px;
+        margin-top: 50px;
+    
+    }
+
+
+}
+
+@media  screen and (min-width:390px) and (max-width: 412px) {
+    .Products-images{
+        justify-content: space-between; 
+        font-size: 30px;
+        color: #7DAB08;
+        height: 300px;
+        margin-top: 0px;
+        background-color:#f5dfd1 ;
+        width: 390px;
+    
+    }
+    .bag-chondo-lizarddoll{
+        margin-left: 20px;
+        display: flex;
+        gap: 30px;
+        margin-top: 30px;
+    
+    }
+    .fish-pillow{
+        margin-left: 90px;
+        display: flex;
+        gap: 40px;
+    }
+    #recycle-bin{
+        margin-left: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
