@@ -2,7 +2,7 @@ import './index.css'
 
 const OurTeam = () => {
     return(
-        <div>
+        <div className='main'>
             <h2 className='team'>Our Team</h2>
 
             <div className='our-team'>

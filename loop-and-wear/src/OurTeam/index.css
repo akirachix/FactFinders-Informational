@@ -1,4 +1,4 @@
-body{
+.main{
     background-image: linear-gradient(to right, #0F2A4F, #0F2A4F, #7DAB08);
 }
 
@@ -16,7 +16,7 @@ h2{
     display: flex;
     gap: 10%;
     padding-top: 8px;
-    padding-left: 430px;
+    padding-left: 380px;
 }
 
 
