@@ -15,7 +15,7 @@ body{
   margin-top: 20px;
 }
 
-.Container{
+.container{
   display: flex;
   font-size: 45px;
   gap: 10%;
@@ -47,7 +47,7 @@ button{
 }
 
 
-#words{
+#details{
   align-items: start;
   text-align: start;
   margin-left: 4%;
@@ -128,11 +128,11 @@ h1{
   #logo{
     width: 50px;
     height: 50px;
-    margin-left: 5%;
+    margin-left: 20%;
    
   }
 
-  .Container{
+  .container{
     display: grid;
     font-size: 15px;
     margin-top: 5%;
@@ -219,11 +219,11 @@ h1{
   #logo{
     width: 50px;
     height: 50px;
-    margin-left: 5%;
+    margin-left: 25%;
    
   }
 
-  .Container{
+  .container{
     display: grid;
     font-size: 15px;
     gap: 0%;
@@ -312,7 +312,7 @@ h1{
     margin-left: 5%;
   }
 
-  .Container{
+  .container{
     display: grid;
     font-size: 15px;
     gap: 0%;
@@ -395,10 +395,10 @@ h1{
   #logo{
     width: 50px;
     height: 50px;
-    margin-left: 5%;
+    margin-left: 65%;
   }
 
-  .Container{
+  .container{
     display: flex;
     font-size: 15px;
     gap: 10%;
@@ -483,10 +483,10 @@ h1{
   #logo{
     width: 50px;
     height: 50px;
-    margin-left: 5%;
+    margin-left: 75%;
   }
 
-  .Container{
+  .container{
     display: flex;
     font-size: 15px;
     gap: 10%;
@@ -571,10 +571,10 @@ h1{
   #logo{
     width: 50px;
     height: 50px;
-    margin-left: 5%;
+    margin-left: 45%;
   }
 
-  .Container{
+  .container{
     display: flex;
     font-size: 25px;
     gap: 10%;
@@ -634,10 +634,10 @@ h1{
   #logo{
     width: 50px;
     height: 50px;
-    margin-left: 5%;
+    margin-left: 70%;
   }
 
-  .Container{
+  .container{
     display: flex;
     font-size: 30px;
     gap: 10%;
@@ -696,11 +696,11 @@ h1{
   #logo{
     width: 50px;
     height: 50px;
-    margin-left: 5%;
+    margin-left: 45%;
    
   }
 
-  .Container{
+  .container{
     display: grid;
     font-size: 27px;
     margin-top: 5%;

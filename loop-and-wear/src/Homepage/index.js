@@ -28,9 +28,9 @@ function Homepage() {
         </ul>
       </div>
 
-      <div className="Container">
+      <div className="container">
       
-        <div id='words'>
+        <div id='details'>
         <h1>Loop & Wear</h1>
     
        <p>Revive, reimagine and reuse the art</p>
