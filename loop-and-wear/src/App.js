@@ -1,5 +1,6 @@
 import Products from './Products';
 import OurTeam from "./OurTeam"
+
 const App = () => {
 return(
   <div>
@@ -7,9 +8,6 @@ return(
     <OurTeam/>
   </div>
 )
-
-
-
-
 }
 export default App;
+
