@@ -1,4 +1,5 @@
-import Homepage from "./Homepage"
+
+import Homepage from "./Homepage";
 import OurTeam from "./OurTeam"
 
 const App = () => {
