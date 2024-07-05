@@ -3,16 +3,14 @@
     display: flex;
     gap: 90px;
     margin-top: 30px;
-
 }
-.Products-images{
+.products-images{
     justify-content: space-between; 
     font-size: 30px;
     color: #7DAB08;
     height: 900px;
     margin-top: 0px;
-    background-color:#f5dfd1 ;
-
+    background-color:#f5dfd1;
 }
 #chondo{
     width: 362px;
@@ -26,12 +24,7 @@
     width: 320px;
     height: 352px;
 }
-/* #product{
-    width: 350px;
-    height: 300px;
-    margin-top: 20px;
-    border-radius: 100px;
-} */
+
 #pillow{
     width: 550px;
     height: 300px;
@@ -44,10 +37,12 @@
     border-radius: 100px;
 
 }
-h2{
+h1{
     color: #7DAB08;
     font-size: 48px;
     margin-left: 800px;
+    margin-top: 0px;
+
 
 }
 h4{
@@ -60,7 +55,9 @@ h3{
     font-size: 36px;
 }
 .upcycling-explanation{
-    margin-left: 200px;
+    margin-left: 180px;
+
+    background-color: aliceblue;
 }
 .fish-pillow{
     margin-left: 480px;
@@ -112,11 +109,11 @@ h3{
     width: 138px;
     height: 133px;
     margin-top: 50px;
-
 }
 
+
 @media  screen and (min-width:280px) and (max-width: 460px) {
-    .Products-images{
+    .products-images{
         justify-content: space-between; 
         font-size: 20px;
         color: #7DAB08;
@@ -126,11 +123,10 @@ h3{
         background-color:#f5dfd1 ;
     
     }
-    #shirt-explanation{
-        font-size: 15px;
-        margin-left: 10px;
-    
-    }
+  #shirt-explanation{
+    font-size: 15px;
+  }
+  
     #chondo{
         width: 80px;
         height: 80px;
@@ -171,13 +167,7 @@ h3{
         width: 100px;
         height: 100px;
     }
-    /* h2{
-        color: #7DAB08;
-        font-size: 20px;
-        margin-left: 0px;
-    
-    } */
-    h2{
+    h1{
         color: #7DAB08;
         font-size: 20px;
         margin-left: 90px;
@@ -255,7 +245,7 @@ h3{
         margin-bottom: 0px;
     
     }
-    .Products-images{
+    .products-images{
         justify-content: space-between; 
         font-size: 20px;
         color: #7DAB08;
@@ -271,7 +261,7 @@ h3{
         gap: 45px;
         margin-top: 0px;
     }
-    h2{
+    h1{
         color: #7DAB08;
         font-size: 26px;
         margin-left: 120px;
@@ -312,7 +302,7 @@ h3{
         margin-bottom: 0px;
     
     }
-    .Products-images{
+    .products-images{
         justify-content: space-between; 
         font-size: 20px;
         color: #7DAB08;
@@ -328,7 +318,7 @@ h3{
         gap: 45px;
         margin-top: 0px;
     }
-    h2{
+    h1{
         color: #7DAB08;
         font-size: 26px;
         margin-left: 140px;
@@ -366,7 +356,7 @@ h3{
     }
 }
 @media  screen and (min-width:412px) and (max-width: 413px) {
-    .Products-images{
+    .products-images{
         justify-content: space-between; 
         font-size: 20px;
         color: #7DAB08;
@@ -381,7 +371,7 @@ h3{
 }
 
 @media  screen and (min-width:768px) and (max-width: 912px) {
-    .Products-images{
+    .products-images{
         justify-content: space-between; 
         font-size: 20px;
         color: #7DAB08;
@@ -437,7 +427,7 @@ h3{
         width: 150px;
         height: 150px;
     }
-    h2{
+    h1{
         color: #7DAB08;
         font-size: 36px;
         margin-left: 300px;
@@ -510,7 +500,7 @@ h3{
     }
 }  
 @media  screen and (min-width:901px) and (max-width: 912px) {
-    .Products-images{
+    .products-images{
         
         font-size: 20px;
         color: #7DAB08;
@@ -591,7 +581,7 @@ h3{
         width: 200px;
         height: 200px;
     }
-    h2{
+    h1{
         color: #7DAB08;
         font-size: 46px;
         margin-left: 350px;
@@ -627,7 +617,7 @@ h3{
 }
 
 @media  screen and (min-width:461px) and (max-width: 767px) {
-    .Products-images{
+    .products-images{
         
         font-size: 20px;
         color: #7DAB08;
@@ -681,7 +671,7 @@ h3{
         width: 150px;
         height: 150px;
     }
-    h2{
+    h1{
         color: #7DAB08;
         font-size: 36px;
         margin-left: 200px;
@@ -758,7 +748,7 @@ h3{
 }
 }
 @media  screen and (min-width:820px) and (max-width: 900px) {
-    .Products-images{
+    .products-images{
         
         font-size: 20px;
         color: #7DAB08;
@@ -799,6 +789,10 @@ h3{
         font-size: 25px;
         margin-left: 30px;
     }
+    h1{
+        margin-left: 300px;
+        font-size: 35px;
+    }
 }
 
 @media  screen and (min-width:913px) and (max-width: 1010px) {
@@ -809,7 +803,7 @@ h3{
         margin-top: 30px;
     
     }
-    .Products-images{
+    .products-images{
         justify-content: space-between; 
         font-size: 30px;
         color: #7DAB08;
@@ -924,7 +918,7 @@ h3{
         margin-top: 30px;
     
     }
-    .Products-images{
+    .products-images{
         justify-content: space-between; 
         font-size: 30px;
         color: #7DAB08;
@@ -958,7 +952,7 @@ h3{
         border-radius: 100px;
     
     }
-    h2{
+    h1{
         color: #7DAB08;
         font-size: 40px;
         margin-left: 390px;
@@ -1040,7 +1034,7 @@ h3{
         margin-top: 30px;
     
     }
-    .Products-images{
+    .products-images{
         justify-content: space-between; 
         font-size: 30px;
         color: #7DAB08;
@@ -1150,7 +1144,7 @@ h3{
 }
 
 @media  screen and (min-width:390px) and (max-width: 412px) {
-    .Products-images{
+    .products-images{
         justify-content: space-between; 
         font-size: 30px;
         color: #7DAB08;

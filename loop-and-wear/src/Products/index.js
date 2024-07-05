@@ -2,8 +2,8 @@ import './index.css'
 const Products = ()=>{
     return(
         <div>
-            <div className="Products-images">
-               <h2>Products</h2>
+            <div className="products-images">
+               <h1>Products</h1>
                 <div className='bag-chondo-lizarddoll'>
                 <img src ="/images/chondo.png" alt='' id='chondo' /><br></br>
                 <img src='/images/backpack.png' alt='' id='backbag'/><br></br>
