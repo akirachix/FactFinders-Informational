@@ -1,7 +1,7 @@
 import './index.css';
 import React, { useState } from 'react';
 
-function Homepage() {
+const Homepage =() =>{
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -50,3 +50,4 @@ function Homepage() {
   );
 }
 export default Homepage;
+

@@ -1,4 +1,4 @@
-import Homepage from "./Homepage";
+import Homepage from "./Homepage"
 import OurTeam from "./OurTeam"
 
 const App = () => {
@@ -10,3 +10,5 @@ return(
 )
 }
 export default App;
+
+
