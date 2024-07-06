@@ -1,4 +1,4 @@
-.Topcontact{
+.topcontact{
     display: flex;
     justify-content: space-between;
     margin-left: 100px;
@@ -7,60 +7,68 @@
 
 #contact{
     text-align: center;
-    font-size: 50px;
+    font-size: 48px;
     color:#0F2A4F;
 }
-/* h1{
-    margin-left: 800px;
-    color: #0F2A4F;
-    font-size: 40px;
-} */
+
 h4{
     font-size: 40px;
     margin-left: 00px;
     margin-right: 600px;
 }
 
-.Location{
+.location{
 display: flex;
 gap: 40px;
 
 }
 
-.ContactForm{
-    margin-right: 50px;
+.contactform{
+    margin-right: 60px;
+    font-size: 15px;
+    
 }
-#location{
-    border-radius: 35%;
-    height: 90px;
+#locations{
+    border-radius: 20%;
+    height: 70px;
     width: 70px;
+    margin-top: 12px;
+    object-fit: cover;
 }
 
-.Mail{
+.mail{
     display: flex; 
     gap: 20px;
 
 }
-#mail{
+#mailing{
     border-radius: 35%;
-    height: 90px;
+    height: 70px;
     width: 70px;
+    margin-top: 12px;
+    object-fit: cover;
 }
-.Call{
+#calling{
+      height: 70px;
+      width: 70px;
+      margin-top: 12px;
+      object-fit: cover;
+    
+}
+.call{
     display: flex; 
     gap: 20px;
 }
-#call{
-    height: 90px;
-    width: 70px;
-}
-#formpic{
+
+
+#formpicture{
     height: 500px;
-    width: 400px;
-    margin-left: 200px;
+    width: 500px;
+    margin-left: 370px;
+    object-fit: cover;
 } 
 
-.Form{
+.form{
     display: flex;
    justify-content: space-around;
 
@@ -73,33 +81,36 @@ gap: 40px;
     display: flex;
     gap: 20px;
 }
-#button{
+#buttons{
     background-color: #7DAB08;
-    border-radius: 500px;
-    width: 660px;
-    height: 50px;
+    border-radius: 5px;
+    width: 750px;
+    padding: 12px 15px;
+    border: none;
     font-size: larger;
     
 }
 input{
-    width: 300px;
-    height: 35px;
+    width: 350px;
+    height: 45px;
+    border: solid 1px #7DAB08;
 }
 #messages{
-    width: 650px;
+    width: 740px;
     height: 90px;
 }
 .instagram{
     width: 50px;
 }
 .linkedin{
-    /* height: 80px;
-    width: 50px;
+
+width: 50px;
 }
 .facebook{
-    /* height: 80px; */
-    width: 50px;
-}
+        width: 50px;
+    }
+
+
 .twitter{
     /* height: 100px; */
     width: 50px;
@@ -108,230 +119,938 @@ input{
 #connect{
     text-align: center;
     color: white;
+    font-size: 22px;
    
 }
 #icons{
     text-align: center;
+    margin-bottom: 5px;
 }
-.Footer{
+.connect-footer{
    background-color: #0F2A4F;
-   padding-bottom: 15px;
+   padding-bottom: 2px;
+   height: 115px;
 }
-.lowerfooter{
-    padding-top: 5px;
-    padding-bottom: 8px;
+.copyright{
+    padding-top: 3px;
+    padding-bottom: 2px;
     color: white;
     background-color: #7DAB08;
     text-align: center;
-    height: 35px;
-    font-size: 15px;
+    height: 45px;
+    font-size: 17px;
+    
+    
+    
 }
-#feelfree{
+#feelfrees{
     color: #0F2A4F;
 }
-
-@media screen and (max-width:768px){
-    .Topcontact{
-        display: grid;
-         margin-left: 60px;
-        margin-right: 60px;
-    }
-    
-    #contact{
-        text-align: center;
-        font-size:30px;
-        color:#0F2A4F;
-    }
-    /* h1{
-        margin-left: 800px;
-        color: #0F2A4F;
-        font-size: 40px;
-    } */
-    h4{
-        font-size: 40px;
-        margin-left: 00px;
-        margin-right: 600px;
-    }
-    
-    .Location{
-    display: flex;
-    gap: 40px;
-    
-    }
-    
-    .ContactForm{
-        margin-left: 70px;
-    }
-    #location{
-        border-radius: 35%;
-        height: 90px;
-        width: 50px;
-    }
-    
-    .Mail{
-        display: flex; 
-        gap: 20px;
-    
-    }
-    #mail{
-        border-radius: 35%;
-        height:90px;
-        width: 70px;
-    }
-    .Call{
-        display: flex; 
-        gap: 20px;
-    }
-    #call{
-        height: 90px;
-        width: 70px;
-    }
-    #formpic{
-        height: 300px;
-        width: 400px;
-        margin-left: 20px;
-    } 
-    
-    .Form{
-    
-       flex-wrap: wrap;
-    
-    }
-    .firstlastname{
-        display: flex;
-        gap: 20px;
-    }
-    .emailphone{
-        display: flex;
-        gap: 20px;
-    }
-    #button{
-        background-color: #7DAB08;
-        border-radius: 500px;
-        width: 260px;
-        height: 50px;
-        font-size: larger;
-        
-    }
-    input{
-        width: 100px;
-        height: 35px;
-    }
-    #messages{
-        width: 250px;
-        height: 60px;
-    }
-    .instagram{
-        width: 30px;
-    }
-    .linkedin{
-        /* height: 80px; */
-        width: 30px;
-    }
-    .facebook{
-        /* height: 80px; */
-        width: 30px;
-    }
-    .twitter{
-        /* height: 100px; */
-        width: 30px;
-        
-    }
-    #connect{
-        text-align: center;
-        color: white;
-        font-size: 10px;
-       
-    }
-    #icons{
-        text-align: center;
-    }
-    .Footer{
-       background-color: #0F2A4F;
-       padding-bottom: 15px;
-    }
-    .lowerfooter{
-        padding-top: 5px;
-        padding-bottom: 8px;
-        color: white;
-        background-color: #7DAB08;
-        text-align: center;
-        height: 35px;
-        font-size: 15px;
-       
-    }
-    #feelfree{
-        color: #0F2A4F;
-        font-size: 30px;
-    }
+#paragraph{
+    font-size: large;
 }
 
-
-@media screen and (max-width:1024px){
-    .Topcontact{
+@media(min-width:200px) and (max-width:290px){
+    .topcontact{
         flex-wrap: wrap;
-         margin-left: 60px;
-        margin-right: 60px;
+        margin-left: 49px;
+        margin-right: 30px;
+
     }
     
     #contact{
         text-align: center;
-        font-size:30px;
+        font-size: 28px;
         color:#0F2A4F;
     }
-    /* h1{
-        margin-left: 800px;
+    
+    h4{
+        font-size: 20px;
+        margin-left: 00px;
+        margin-right: 60px;
+    }
+    
+    .location{
+    gap: 10px;
+    font-size: small;
+    margin-left: 20px;
+    
+    }
+    
+    .contactform{
+        margin-right: 10px;
+    }
+    #locations{
+        border-radius: 20%;
+        height: 30px;
+        width: 30px;
+        margin-top: 15px;
+    }
+    
+    .mail{ 
+        font-size: small;
+        margin-left: 20px;
+        gap: 10px;
+
+    
+    }
+    #mailing{
+        border-radius: 25%;
+        height: 30px;
+        width: 30px;
+       
+    }
+    #calling{
+          height: 30px;
+          width: 30px;
+          margin-top: 15px; 
+    }
+    .call{
+        font-size: small; 
+        margin-left: 20px;  
+        gap: 10px; 
+        margin-right: 42px; 
+    }
+   
+   
+   
+    #formpicture{
+        height: 200px;
+        width: 200px;
+       margin-right: 400px;
+       margin-left: 400px;
+    } 
+    
+    .form{
+        flex-wrap: wrap;
+       
+    }
+    .firstlastname{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .emailphone{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    #buttons{
+        background-color: #7DAB08;
+        border-radius: 5px;
+        width: 240px;
+        padding: 12px 15px;
+        border: none;
+       font-size: larger;
+        font-size: small;
+        
+    }
+    input{
+        width: 106px;
+        height: 25px;
+        margin-top: 2%;
+    }
+    #messages{
+        width: 235px;
+        height: 90px;
+    }
+    .instagram{
+        width: 30px;
+    }
+    .linkedin{
+    width: 30px;
+    }
+    .facebook{
+            width: 30px;
+        }
+    
+    
+    .twitter{
+        width: 30px;
+        
+    }
+    #connect{
+        text-align: center;
+        color: white;
+        font-size: small;
+       
+    }
+    #icons{
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .connect-footer{
+       background-color: #0F2A4F;
+       padding-bottom: 5px;
+       height: 124px;
+      
+    }
+    .copyright{
+        padding-top: 1px;
+        padding-bottom: 6px;
+        color: white;
+        background-color: #7DAB08;
+        text-align: center;
+        height: 27px;
+        font-size: 10px;
+        
+    }
+    #feelfrees{
         color: #0F2A4F;
-        font-size: 40px;
-    } */
+        font-size: medium;
+    }
+    .contactform{
+        margin-left: 9px;
+        font-size: 10px;
+    }
+}
+
+
+
+@media(min-width:290px) and (max-width:480px){
+    .topcontact{
+        flex-wrap: wrap;
+        margin-left: 67px;
+        
+
+    }
+    
+    #contact{
+        text-align: center;
+        font-size: 28px;
+        color:#0F2A4F;
+    }
+    
+    h4{
+        font-size: 20px;
+        margin-left: 00px;
+        margin-right: 60px;
+    }
+    
+    .location{
+    gap: 10px;
+    font-size: small;
+    margin-left: 20px;
+    
+    }
+    
+    .contactform{
+        margin-right: 10px;
+        
+       
+      
+    }
+    #locations{
+        border-radius: 20%;
+        height: 30px;
+        width: 30px;
+        margin-top: 15px;
+    }
+    
+    .mail{ 
+        font-size: small;
+        margin-left: 20px;
+        gap: 10px;
+
+    
+    }
+    #mailing{
+        border-radius: 25%;
+        height: 30px;
+        width: 30px;
+       
+    }
+    #calling{
+          height: 30px;
+          width: 30px;
+          margin-top: 15px; 
+    }
+    .call{
+        font-size: small; 
+        margin-left: 20px;  
+        gap: 10px; 
+        margin-right: 30px; 
+    }
+   
+   
+   
+    #formpicture{
+        height: 200px;
+        width: 200px;
+       margin-right: 400px;
+       margin-left: 400px;
+    } 
+    
+    .form{
+        flex-wrap: wrap;
+       
+    }
+    .firstlastname{
+        flex-wrap: wrap;
+        gap: 10px;
+        font-size: medium;
+        margin-left: 4px;
+       
+        
+    }
+    .emailphone{
+        flex-wrap: wrap;
+        gap: 10px;
+        font-size: medium;
+        margin-left: 4px;
+        
+
+    }
+    #buttons{
+        background-color: #7DAB08;
+        border-radius: 5px;
+        width: 335px;
+        height: 45px;
+        padding: 12px 15px;
+        border: none;
+        font-size: large;
+        margin-left: 4px;
+       
+        
+    }
+  
+    input{
+        width: 150px;
+        height: 35px;
+        margin-top: 2%;
+    }
+    #messages{
+        width: 325px;
+        height: 90px;
+        margin-left: 1px;
+        
+        
+    }
+    .message{
+        font-size: medium;
+        margin-left:3px;
+    }
+    .instagram{
+        width: 30px;
+    }
+    .linkedin{
+    width: 30px;
+    }
+    .facebook{
+            width: 30px;
+        }
+    
+    
+    .twitter{
+        width: 30px;
+        
+    }
+    #connect{
+        text-align: center;
+        color: white;
+        font-size: small;
+       
+    }
+    #icons{
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .connect-footer{
+       background-color: #0F2A4F;
+       padding-bottom: 5px;
+       height: 124px;
+      
+    }
+    .copyright{
+        padding-top: 1px;
+        padding-bottom: 6px;
+        color: white;
+        background-color: #7DAB08;
+        text-align: center;
+        height: 27px;
+        font-size: 10px;
+      
+        
+    }
+    #feelfrees{
+        color: #0F2A4F;
+        font-size: x-larger;
+        margin-left: 4px;
+    }
+    .contactform{
+        margin-left: 9px;
+        font-size: 10px;
+    }
+    #paragraph{
+        font-size: larger;
+        margin-left: 4px;
+        
+    }
+}
+
+
+@media(min-width:481px) and (max-width:680px){
+    .topcontact{
+        flex-wrap: wrap;
+        margin-left: 80px;
+        margin-right: 20px;
+        gap: 10px;
+    }
+    
+    #contact{
+        text-align: center;
+        font-size: 28px;
+        color:#0F2A4F;
+    }
+    
+    h4{
+        font-size: 20px;
+        margin-left: 00px;
+        margin-right: 60px;
+    }
+    
+    .location{
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: small;
+    margin-left: 80px;
+    
+    }
+    
+    .contactform{
+        margin-right: 10px;
+    }
+    #locations{
+        border-radius: 20%;
+        height: 30px;
+        width: 30px;
+        margin-top: 15px;
+    }
+    
+    .mail{
+        flex-wrap: wrap; 
+        margin-left: 80px; 
+        font-size: small;
+        gap: 10px; 
+    }
+    #mailing{
+        border-radius: 25%;
+        height: 30px;
+        width: 30px;
+      
+    }
+    #calling{
+          height: 30px;
+          width: 30px;
+          margin-top: 15px; 
+    }
+    .call{
+        font-size: small; 
+        margin-left: 80px;  
+        gap: 10px;  
+    }
+   
+   
+   
+    #formpicture{
+        height: 200px;
+        width: 200px;
+       margin-right: 400px;
+       margin-left: 400px;
+    } 
+    
+    .form{
+        flex-wrap: wrap;
+       
+    }
+    .firstlastname{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .emailphone{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    #buttons{
+        background-color: #7DAB08;
+        border-radius: 5px;
+     width: 435px;
+     padding: 12px 15px;
+     border: none;
+    font-size: larger;
+        
+        
+    }
+    input{
+        width: 200px;
+        height: 25px;
+    }
+    #messages{
+        width: 430px;
+        height: 90px;
+    }
+    .instagram{
+        width: 30px;
+    }
+    .linkedin{
+    width: 30px;
+    }
+    .facebook{
+            width: 30px;
+        }
+    
+    
+    .twitter{
+        width: 30px;
+        
+    }
+    #connect{
+        text-align: center;
+        color: white;
+        font-size: small;
+       
+    }
+    #icons{
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .connect-footer{
+       background-color: #0F2A4F;
+       padding-bottom: 5px;
+       height: 124px;
+      
+    }
+    .copyright{
+        padding-top: 1px;
+        padding-bottom: 6px;
+        color: white;
+        background-color: #7DAB08;
+        text-align: center;
+        height: 27px;
+        font-size: small;
+        
+    }
+    #feelfrees{
+        color: #0F2A4F;
+        font-size: medium;
+    }
+    .contactform{
+        margin-left: 39px;
+        font-size: 10px;
+    }
+}
+
+
+@media(min-width:681px) and (max-width:880px){
+  
+    .topcontact{
+     display: flex;
+    
+   
+    }
+    
+    #contact{
+        text-align: center;
+        font-size: 28px;
+        color:#0F2A4F;
+    }
+    
+    h4{
+        font-size: 20px;
+        margin-left: 00px;
+        margin-right: 60px;
+    }
+    .footer{
+        margin-top: 2%;
+    }
+    .location{
+    font-size: 15px;
+    gap:20px;
+    
+    white-space: nowrap;
+
+   
+    }
+    #locations{
+        border-radius: 20%;
+        height: 30px;
+        width: 30px;
+        margin-top: 17px;
+    }
+    
+    .mail{
+        font-size: 15px;
+        margin-left: 20px;
+        white-space: nowrap;
+    
+    }
+    #mailing{
+        border-radius: 25%;
+        height: 30px;
+        width: 30px;
+        margin-top: 15px;
+    }
+    #calling{
+          height: 30px;
+          width: 30px;
+          margin-top: 15px; 
+    }
+    .call{
+        font-size: 15px;
+        margin-left: 29px;
+        white-space: nowrap;
+        
+    }
+   
+   
+   
+    #formpicture{
+        height: 300px;
+        width: 300px;
+       margin-right: 400px;
+       margin-left: 350px;
+    } 
+    
+    .form{
+        flex-wrap: wrap;
+       
+    }
+    .firstlastname{
+        flex-wrap: wrap;
+        gap: 30px;
+        
+    }
+    .emailphone{
+        flex-wrap: wrap;
+        gap: 30px;
+       
+    }
+    #buttons{
+    background-color: #7DAB08;
+     border-radius: 5px;
+     width: 608px;
+     padding: 12px 15px;
+     border: none;
+    font-size: larger;
+       
+        
+    }
+    input{
+        width: 265px;
+        height: 35px;
+    }
+    #messages{
+        width: 600px;
+        height: 90px;
+        margin-top: 2%;
+    }
+    .instagram{
+        width: 30px;
+    }
+    .linkedin{
+    width: 30px;
+    }
+    .facebook{
+            width: 30px;
+        }
+    
+    
+    .twitter{
+        width: 30px;
+        
+    }
+    #connect{
+        text-align: center;
+        color: white;
+        font-size: medium;
+       
+    }
+    #icons{
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .connect-footer{
+       background-color: #0F2A4F;
+       padding-bottom: 1px;
+       height: 80px;
+      
+    }
+    .copyright{
+        padding-top: 1px;
+        padding-bottom: 6px;
+        color: white;
+        background-color: #7DAB08;
+        text-align: center;
+        height: 33px;
+        font-size: small;
+        
+    }
+    #feelfrees{
+        color: #0F2A4F;
+        font-size:30px;
+        margin-top: 2%;
+    }
+    .contactform{
+        margin-left: 93px;
+        font-size: 20px;
+      
+    } 
+    
+   
+}   
+
+
+@media(min-width:881px) and (max-width:1024px){
+  
+    .topcontact{
+        flex-wrap: wrap;
+        margin-left: 10px;
+        margin-right: 20px;
+        
+    }
+    
+    #contact{
+        text-align: center;
+        font-size: 35px;
+        color:#0F2A4F;
+    }
+    
+    h4{
+        font-size: 20px;
+        margin-left: 00px;
+        margin-right: 60px;
+    }
+    
+    .location{
+    flex-wrap: wrap;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-top: 15px;
+    gap: 20px;
+   
+   
+    
+    }
+    
+    .contactform{
+        margin-left: 90px;
+        margin-top: 30px;
+        font-size: 30px;
+    }
+    #locations{
+        border-radius: 20%;
+        height: 30px;
+        width: 30px;
+        margin-top: 20px;
+    }
+    
+    .mail{
+        flex-wrap: wrap; 
+        font-size: 17px;
+        margin-left: 20px;
+        gap: 10px;
+        margin-top: 15px;
+
+    
+    }
+    #mailing{
+        border-radius: 25%;
+        height: 30px;
+        width: 30px;
+        margin-top: 25px;
+    }
+    #calling{
+          height: 30px;
+          width: 30px;
+          margin-top: 25px; 
+    }
+    .call{
+        font-size: 17px; 
+        margin-left: 20px; 
+        margin-top: 15px; 
+       
+       
+    }
+   
+   
+   
+    #formpicture{
+        height: 500px;
+        width: 500px;
+       margin-right: 400px;
+       /* margin-left: 400px; */
+    } 
+    
+    .form{
+        flex-wrap: wrap;
+      
+       
+    }
+    .firstlastname{
+        flex-wrap: wrap;
+        gap: 20px;
+        font-size: 30px;                  
+       
+        
+    }
+    .emailphone{
+        flex-wrap: wrap;
+        gap: 20px;
+        font-size: 30px; 
+    }
+    #buttons{
+        background-color: #7DAB08;
+        border-radius: 5px;
+        width: 824px;
+        padding: 12px 15px;
+        border: none;
+       font-size: larger;
+        
+       
+        
+    }
+    input{
+        width: 386px;
+        height: 60px;
+
+        
+        
+        
+    }
+    #messages{
+        width: 818px;
+        height: 150px;
+        
+      
+    }
+    .instagram{
+        width: 50px;
+    }
+    .linkedin{
+    width: 50px;
+    }
+    .facebook{
+            width: 50px;
+        }
+    
+    
+    .twitter{
+        width: 50px;
+        
+    }
+    #connect{
+        text-align: center;
+        color: white;
+        font-size: medium;
+       
+    }
+    #icons{
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .connect-footer{
+       background-color: #0F2A4F;
+       padding-bottom: 5px;
+       height: 124px;
+      
+    }
+    .footer{
+        margin-top: 1%;
+
+    }
+    .copyright{
+        padding-top: 1px;
+        padding-bottom: 6px;
+        color: white;
+        background-color: #7DAB08;
+        text-align: center;
+        height: 27px;
+        font-size: small;
+        
+    }
+    #feelfrees{
+        color: #0F2A4F;
+        font-size: larger;
+        margin-top: 30px;
+        
+    }
+    #paragraph{
+        font-size: larger;
+    }
+   
+}
+
+
+@media(min-width:1025px) and (max-width:1500px){
+    .topcontact{
+        display: flex;
+        
+
+    }
+    
+    #contact{
+        text-align: center;
+        font-size: 43px;
+        color:#0F2A4F;
+    }
+    
     h4{
         font-size: 40px;
         margin-left: 00px;
         margin-right: 600px;
     }
     
-    .Location{
+    .location{
     display: flex;
     gap: 40px;
     
     }
     
-    .ContactForm{
-        margin-left: 70px;
+    .contactform{
+        margin-right: 60px;
+        font-size: 20px;
     }
-    #location{
-        border-radius: 35%;
-        height: 90px;
+    #locations{
+        border-radius: 20%;
+        height: 50px;
         width: 50px;
+        margin-top: 12px;
+        object-fit: cover;
     }
     
-    .Mail{
+    .mail{
         display: flex; 
         gap: 20px;
     
     }
-    #mail{
+    #mailing{
         border-radius: 35%;
-        height:90px;
-        width: 70px;
+        height: 50px;
+        width: 50px;
+        margin-top: 12px;
+        object-fit: cover;
     }
-    .Call{
+    #calling{
+          height: 50px;
+          width: 50px;
+          margin-top: 12px;
+          object-fit: cover;
+        
+    }
+    .call{
         display: flex; 
         gap: 20px;
     }
-    #call{
-        height: 90px;
-        width: 70px;
-    }
-    #formpic{
-        height: 300px;
-        width: 400px;
-        margin-left: 20px;
+    
+    
+    #formpicture{
+        height: 530px;
+        width: 500px;
+        margin-left: 370px;
+        object-fit: cover;
     } 
     
-    .Form{
-    
-       flex-wrap: wrap;
+    .form{
+        display: flex;
+        margin-right: 140px;
     
     }
     .firstlastname{
@@ -342,63 +1061,74 @@ input{
         display: flex;
         gap: 20px;
     }
-    #button{
+    #buttons{
         background-color: #7DAB08;
-        border-radius: 500px;
-        width: 260px;
-        height: 50px;
+        border-radius: 5px;
+        width: 450px;
+    padding: 12px 15px;
+    border: none;
         font-size: larger;
         
     }
     input{
-        width: 100px;
-        height: 35px;
+        width: 200px;
+        height: 45px;
+        border: solid 1px #7DAB08;
     }
     #messages{
-        width: 250px;
-        height: 60px;
+        width: 445px;
+        height: 100px;
     }
     .instagram{
-        width: 30px;
+        width: 50px;
     }
     .linkedin{
-        /* height: 80px; */
-        width: 30px;
+    
+    width: 50px;
     }
     .facebook{
-        /* height: 80px; */
-        width: 30px;
-    }
+            width: 50px;
+        }
+    
+    
     .twitter{
         /* height: 100px; */
-        width: 30px;
+        width: 50px;
         
     }
     #connect{
         text-align: center;
         color: white;
-        font-size: 10px;
+        font-size: 22px;
        
     }
     #icons{
         text-align: center;
+        margin-bottom: 5px;
     }
-    .Footer{
+   
+    .connect-footer{
        background-color: #0F2A4F;
-       padding-bottom: 15px;
+       padding-bottom: 2px;
+       height: 115px;
     }
-    .lowerfooter{
-        padding-top: 5px;
-        padding-bottom: 8px;
+    .copyright{
+        padding-top: 3px;
+        padding-bottom: 2px;
         color: white;
         background-color: #7DAB08;
         text-align: center;
-        height: 35px;
-        font-size: 12px;
-
+        height: 45px;
+        font-size: 17px;
+        
+        
+        
+        
     }
-    #feelfree{
+    #feelfrees{
         color: #0F2A4F;
-        font-size: 30px;
+        font-size: x-large;
     }
+ 
 }
+
