@@ -37,14 +37,14 @@
     border-radius: 100px;
 
 }
-h1{
+h8{
     color: #7DAB08;
     font-size: 48px;
     margin-left: 800px;
     margin-top: 0px;
 
-
 }
+
 h4{
     margin-left: 600px;
     font-size: 48px;
@@ -120,6 +120,7 @@ h3{
         height: 300px;
         margin-top: 0px;
         width: 280px;
+        margin-top: 40px;
         background-color:#f5dfd1 ;
     
     }
@@ -167,10 +168,11 @@ h3{
         width: 100px;
         height: 100px;
     }
-    h1{
+    h8{
         color: #7DAB08;
-        font-size: 20px;
-        margin-left: 90px;
+        font-size: 24px;
+        margin-left: 80px;
+        margin-top: 40px;
     
     }
     h4{
@@ -261,7 +263,7 @@ h3{
         gap: 45px;
         margin-top: 0px;
     }
-    h1{
+    h8{
         color: #7DAB08;
         font-size: 26px;
         margin-left: 120px;
@@ -318,7 +320,7 @@ h3{
         gap: 45px;
         margin-top: 0px;
     }
-    h1{
+    h8{
         color: #7DAB08;
         font-size: 26px;
         margin-left: 140px;
@@ -377,13 +379,14 @@ h3{
         color: #7DAB08;
         height: 400px;
         margin-top: 0px;
-        width: 765px;
+        /* width: 765px; */
+        width: 795px;
         background-color:#f5dfd1 ;
     
     }
     #shirt-explanation{
         font-size: 25px;
-        margin-left: 20px;
+        margin-left: 30px;
 
     
     }
@@ -427,7 +430,7 @@ h3{
         width: 150px;
         height: 150px;
     }
-    h1{
+    h8{
         color: #7DAB08;
         font-size: 36px;
         margin-left: 300px;
@@ -442,7 +445,7 @@ h3{
     h3{
         color: #0F2A4F;
         font-size: 30px;
-        margin-left: 20px;
+        margin-left:6px;
 
         
     }
@@ -470,11 +473,11 @@ h3{
     }
     #bin-explanation{
         font-size: 25px;
-        margin-left: 20px;
+        margin-left: 22px;
     }
     #bulb-explanation{
         font-size: 25px;
-        margin-left: 20px;
+        margin-left: 49px;
 
     
     }
@@ -581,7 +584,7 @@ h3{
         width: 200px;
         height: 200px;
     }
-    h1{
+    h8{
         color: #7DAB08;
         font-size: 46px;
         margin-left: 350px;
@@ -671,7 +674,7 @@ h3{
         width: 150px;
         height: 150px;
     }
-    h1{
+    h8{
         color: #7DAB08;
         font-size: 36px;
         margin-left: 200px;
@@ -789,7 +792,7 @@ h3{
         font-size: 25px;
         margin-left: 30px;
     }
-    h1{
+    h8{
         margin-left: 300px;
         font-size: 35px;
     }
@@ -952,7 +955,7 @@ h3{
         border-radius: 100px;
     
     }
-    h1{
+    h8{
         color: #7DAB08;
         font-size: 40px;
         margin-left: 390px;
@@ -1041,7 +1044,7 @@ h3{
         height: 900px;
         margin-top: 0px;
         background-color:#f5dfd1 ;
-        width: 1280px;
+        width: 1340px;
     
     }
     #chondo{
@@ -1069,7 +1072,7 @@ h3{
         border-radius: 100px;
     
     }
-    h2{
+    h8{
         color: #7DAB08;
         font-size: 40px;
         margin-left: 550px;

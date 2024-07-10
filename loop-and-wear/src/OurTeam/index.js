@@ -2,8 +2,12 @@ import './index.css'
 
 const OurTeam = () => {
     return(
-        <div className='team_members'>
-            <h6 className='team'>Our Team</h6>
+
+
+
+        <div className='team-section'>
+            <h2 className='team'>Our Team</h2>
+
 
             <div className='our-team'>
                 <div className='images'>
@@ -53,7 +57,8 @@ const OurTeam = () => {
             </div>
         </div>
         </div>
+      
     )
 }
 
-export default OurTeam
+export default OurTeam;
