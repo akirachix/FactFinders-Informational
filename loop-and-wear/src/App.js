@@ -1,11 +1,12 @@
-
+import Products from './Products';
 import Homepage from "./Homepage";
 import OurTeam from "./OurTeam"
 
 const App = () => {
 return(
   <div>
-    <Homepage/>
+     <Homepage/>
+    <Products/>
     <OurTeam/>
   </div>
 )

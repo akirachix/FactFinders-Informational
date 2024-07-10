@@ -1,14 +1,20 @@
-body{
-    background-color: #F2E5DD;
-    
+.home-page{
+  background-color:#F2E5DD;
+
+}
+
+
+  #details-explanation{
+    font-size: 50px;
   }
-  
+
   #donors-clothing{
     width: 850px;
     height: 650px;
-    margin-bottom: 10%;
+    margin-bottom: 50%;
+    margin-left: 300px;
   }
-  
+
   #logo{
     width: 100px;
     height: 100px;
@@ -46,18 +52,22 @@ body{
     margin-right: 100px;
   
   }
-  
+
   
   #details{
     align-items: start;
     text-align: start;
     margin-left: 4%;
+    margin-top: 150px;
   }
   
-  h1{
+  h7{
   
-    font-size: 75px;
+    font-size: 65px;
     margin-top: 10%;
+    margin-left: 0px;
+    color: black;
+    font-weight: 700px;
   
   }
   
@@ -110,21 +120,33 @@ body{
   }
   
   @media only screen and (min-device-width: 280px) and (max-device-width: 290px) {
-    body{
-      background-color: #F2E5DD;
-      width: 95%;
-      
-    }
+ 
     
     .navbar {
       padding: 0.1rem;
       
-  
     }
+    .home-page{
+      background-color:#F2E5DD;
+      width: 340px;
+    
+    }
+    
+    h7{
+  
+      font-size: 25px;
+      margin-top: 10%;
+      margin-left: 0px;
+      color: black;
+      font-weight: 700px;
+    
+    }
+    
   .navbar-logo{
     margin-right: 5%;
   
   }
+
   
     #logo{
       width: 50px;
@@ -137,10 +159,21 @@ body{
       display: grid;
       font-size: 15px;
       margin-top: 5%;
-      /* margin-left: 5px; */
+      margin-left: 5px;
     
   
     }
+    /* .hamburger {
+      display: none;
+      cursor: pointer;
+    }
+    .hamburger span {
+      width: 25px;
+      height: 3px;
+      background-color: rgb(104, 13, 77);
+      margin: 4px 0;
+      transition: all 0.3s ease;
+    } */
   
     h1{
   
@@ -153,6 +186,8 @@ body{
       width: 280px;
       height: 250px;
       margin-right: -60px;
+      margin-left: 0px;
+      margin-bottom: 60px;
       
     }
   
@@ -185,12 +220,12 @@ body{
     }
   
     .navbar-content.active {
-      display: flex;
+      /* display: flex; */
     }
     .navbar-content li {
       margin: -0.9rem ;
       margin-top: 20px;
-      text-align: center;
+      /* text-align: center; */
     }
     .navbar-content a {
       color: white;
@@ -198,16 +233,14 @@ body{
       display: block;
     }
     .hamburger {
-      display: flex;
-      margin-right: -15%;
+      cursor: pointer;
+      margin-right: 1000px;
+      margin-left: 0px;
     }
   }
   
   @media only screen and (min-device-width: 415px) and (max-device-width: 480px) {
-    body{
-      background-color: #F2E5DD;
-      width: 95%;
-    }
+  
     
     .navbar {
       padding: 0.1rem;
@@ -294,11 +327,8 @@ body{
   }
 
 
-  @media only screen and (min-device-width: 360px) and (max-device-width: 400px) {
-    body{
-      background-color: #F2E5DD;
-      width: 95%;
-    }
+  @media only screen and (min-device-width: 360px) and (max-device-width: 389px) {
+ 
     
     .navbar {
       padding: 0.1rem;
@@ -306,6 +336,15 @@ body{
     }
   .navbar-logo{
     margin-right: 5%;
+  
+  }
+  h7{
+  
+    font-size: 35px;
+    margin-top: 10%;
+    margin-left: 0px;
+    color: black;
+    font-weight: 700px;
   
   }
   
@@ -336,7 +375,103 @@ body{
     #donors-clothing{
       width: 350px;
       height: 250px;
-      margin-right: 10px;
+      margin-left: 0px;
+      
+      
+    }
+  
+    #button{
+      border: none;
+      width: 190px;
+      height: 50px;
+      background-color: #0F2A4F;
+      font-size: 15px;
+      color: #F2E5DD;
+      margin-right: 50%;
+     
+    }
+  
+    .navbar-content {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 4.5rem;
+      left: 0;
+      width: 93%;
+      height: 80%;
+      background-color:#030d14;
+      z-index: 1;
+      padding: 1.2rem;
+      opacity: 0.8;
+      font-size: large;
+  
+    }
+    .navbar-content.active {
+      display: flex;
+    }
+    .navbar-content li {
+      margin: -0.9rem ;
+      text-align: center;
+    }
+    .navbar-content a {
+      color: white;
+      padding: 0.2 rem;
+      display: block;
+    }
+    .hamburger {
+      display: flex;
+      margin-right: -4%;
+    }
+  }
+  @media only screen and (min-device-width: 390px) and (max-device-width: 400px) {
+ 
+    .navbar {
+      padding: 0.1rem;
+  
+    }
+  .navbar-logo{
+    margin-right: 5%;
+  
+  }
+  h7{
+  
+    font-size: 20px;
+    margin-top: 10%;
+    margin-left: 0px;
+    color: black;
+    font-weight: 700px;
+  
+  }
+  
+    #logo{
+      width: 50px;
+      height: 50px;
+      margin-left: 5%;
+     
+    }
+  
+    .container{
+      display: grid;
+      font-size: 15px;
+      gap: 0%;
+      border: none;
+      margin-top: 5%;
+      font-size: 21px;
+  
+    }
+  
+    h1{
+  
+      font-size: 40px;
+      margin-top: 10%;
+    
+    }
+  
+    #donors-clothing{
+      width: 350px;
+      height: 250px;
+      margin-left: 0px;
+      
       
     }
   
@@ -386,10 +521,7 @@ body{
 
 
   @media only screen and (min-device-width: 412px) and (max-device-width: 414px) {
-    body{
-      background-color: #F2E5DD;
-      width: 95%;
-    }
+  
     
     .navbar {
       padding: 0.1rem;
@@ -478,14 +610,14 @@ body{
   
   
   @media only screen and (min-device-width: 481px) and (max-device-width: 680px) {
-    body{
-      background-color: #F2E5DD;
-      width: 95%;
-    }
+  
     
     .navbar {
       padding: 0.1rem;
   
+    }
+    body{
+      width: 590px;
     }
   .navbar-logo{
     margin-right: 5%;
@@ -517,6 +649,7 @@ body{
       width: 200px;
       height: 200px;
       margin-right: 300px;
+      margin-left: 70px;
       
     }
   
@@ -565,10 +698,7 @@ body{
   
   
   @media only screen and (min-device-width: 681px) and (max-device-width: 880px) {
-    body{
-      background-color: #F2E5DD;
-      width: 95%;
-    }
+  
     
     .navbar {
       padding: 0.1rem;
@@ -584,6 +714,7 @@ body{
       margin-left: 65%;
     }
   
+  
     .container{
       display: flex;
       font-size: 15px;
@@ -595,17 +726,14 @@ body{
   
     }
   
-    h1{
-  
-      font-size: 40px;
-      margin-top: 10%;
-    
-    }
+ 
   
     #donors-clothing{
       width: 290px;
       height: 250px;
+      margin-left: 0px;
       margin-right: 10px;
+      margin-top: 60px;
       
     }
   
@@ -617,6 +745,7 @@ body{
       font-size: 15px;
       color: #F2E5DD;
       margin-right: 50%;
+      margin-bottom: 0px;
      
     }
   
@@ -648,16 +777,40 @@ body{
     .hamburger {
       display: flex;
       margin-right: 2%;
+      margin-left: 0px;
     }
+    .container{
+      width: 805px;
+      margin-bottom: 4px;
+    }
+    #detail-explanation{
+      margin-bottom: 0px;
+      margin-top: 0px;
+    }
+    body{
+      width: 789px;
+    }
+    h7{
+  
+      font-size: 35px;
+      margin-top: 0%;
+      margin-left: 0px;
+      color: black;
+      font-weight: 700px;
+    
+    }
+   
+   
   }
   
+  /* @media only screen and (min-device-width: 768px) and (max-device-width: 770px) {
+    #details-explanation{
+      font-size: 50px;
+    } */
   
   
   @media only screen and (min-device-width: 881px) and (max-device-width: 1020px) {
-    body{
-      background-color: #F2E5DD;
-      width: 95%;
-    }
+ 
     
     .navbar {
       padding: 0.1rem;
@@ -742,10 +895,7 @@ body{
   
   
   @media only screen and (min-device-width: 1024px) and (max-device-width: 1050px) {
-    body{
-      background-color: #F2E5DD;
-      width: 95%;
-    }
+   
     
     .navbar {
       padding: 1rem;
@@ -805,16 +955,14 @@ body{
   
   
   @media only screen and (min-device-width: 1051px) and (max-device-width: 1500px) {
-    body{
-      background-color: #F2E5DD;
-      width: 95%;
-    }
+  
     
     .navbar {
       padding: 1rem;
       font-size: larger;
   
     }
+
   .navbar-logo{
     margin-right: 5%;
   }
@@ -832,8 +980,29 @@ body{
       border: none;
       margin-top: 5%;
     
-  
     }
+    .home-page{
+      background-color:#F2E5DD;
+      width: 1335px;
+    
+    }
+    #details{
+      align-items: start;
+      text-align: start;
+      margin-left: 4%;
+      margin-top: 40px;
+    }
+    
+    h7{
+    
+      font-size: 65px;
+      margin-top: 10%;
+      margin-left: 0px;
+      color: black;
+      font-weight: 700px;
+    
+    }
+    
   
     h1{
   
@@ -865,11 +1034,7 @@ body{
   
   
   @media only screen and (min-device-width: 540px) and (max-device-width: 550px) {
-    body{
-      background-color: #F2E5DD;
-      width: 95%;
-      
-    }
+  
     
     .navbar {
       padding: 0.1rem;
@@ -1065,11 +1230,7 @@ h1{
 }
 
 @media only screen and (min-device-width: 280px) and (max-device-width: 290px) {
-  body{
-    background-color: #F2E5DD;
-    width: 95%;
-    
-  }
+
   
   .navbar {
     padding: 0.1rem;
@@ -1158,10 +1319,7 @@ h1{
 }
 
 @media only screen and (min-device-width: 300px) and (max-device-width: 480px) {
-  body{
-    background-color: #F2E5DD;
-    width: 95%;
-  }
+
   
   .navbar {
     padding: 0.1rem;
@@ -1249,10 +1407,7 @@ h1{
 
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 680px) {
-  body{
-    background-color: #F2E5DD;
-    width: 95%;
-  }
+
   
   .navbar {
     padding: 0.1rem;
@@ -1335,10 +1490,7 @@ h1{
 
 
 @media only screen and (min-device-width: 681px) and (max-device-width: 880px) {
-  body{
-    background-color: #F2E5DD;
-    width: 95%;
-  }
+ 
   
   .navbar {
     padding: 0.1rem;
@@ -1423,10 +1575,6 @@ h1{
 
 
 @media only screen and (min-device-width: 881px) and (max-device-width: 1020px) {
-  body{
-    background-color: #F2E5DD;
-    width: 95%;
-  }
   
   .navbar {
     padding: 0.1rem;
@@ -1510,10 +1658,7 @@ h1{
 
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1050px) {
-  body{
-    background-color: #F2E5DD;
-    width: 95%;
-  }
+ 
   
   .navbar {
     padding: 1rem;
@@ -1573,10 +1718,7 @@ h1{
 
 
 @media only screen and (min-device-width: 1051px) and (max-device-width: 1500px) {
-  body{
-    background-color: #F2E5DD;
-    width: 95%;
-  }
+ 
   
   .navbar {
     padding: 1rem;
@@ -1613,7 +1755,7 @@ h1{
   #donors-clothing{
     width: 350px;
     height: 350px;
-    margin-left: 100px;
+    margin-left: 200px;
     object-fit: cover;
     
   }
@@ -1633,11 +1775,7 @@ h1{
 
 
 @media only screen and (min-device-width: 540px) and (max-device-width: 550px) {
-  body{
-    background-color: #F2E5DD;
-    width: 95%;
-    
-  }
+ 
   
   .navbar {
     padding: 0.1rem;

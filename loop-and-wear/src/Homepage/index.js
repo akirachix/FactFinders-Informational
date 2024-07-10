@@ -8,7 +8,7 @@ const Homepage =() =>{
    
   };
   return (
-    <div>
+    <div className='home-page'>
   
       <div className="navbar">
         <div className="navbar-logo">
@@ -31,10 +31,14 @@ const Homepage =() =>{
       <div className="container">
       
         <div id='details'>
-        <h1>Loop & Wear</h1>
-    
-       <p>Revive, reimagine and reuse the art</p>
-        <p>of upcycling for your garment.</p>
+        <h7>Loop & Wear</h7>
+        
+        <div id='detail-explanation'>
+        <p>Revive, reimagine and reuse the art
+        of upcycling for your garment.</p>
+        </div>
+  
+     
 
        <button id="button"><b>Let's Make It Happen</b></button>
         </div>
