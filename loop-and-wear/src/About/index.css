@@ -279,7 +279,7 @@ span{
             
 
         }
-        @media screen and (min-width:820px) and (max-width:1180px){
+        /* @media screen and (min-width:820px) and (max-width:1180px){
             #aboutus{
                 display:flex;
                 
@@ -310,8 +310,8 @@ span{
 
             
 
-        }
-        @media screen and (min-width:1000px) and (max-width:1024px){
+        } */
+        @media screen and (min-width:1024px) and (max-width:1100){
             #aboutus{
                 display:flex;
                 justify-content: center;
@@ -321,7 +321,7 @@ span{
 
             .globe{
                 height: 350px;
-                width: 400px;
+                width: 300px;
                 padding-left: 3%;
                 
             }
@@ -337,7 +337,7 @@ span{
                 padding-top:1% ;
                 padding-left:8%;
                 font-size: 23px;
-                width: 70%;
+                width: 50%;
 
 
             
@@ -367,13 +367,11 @@ span{
             }
             #text{
                 padding-top:1% ;
-                /* width: 90%; */
-               
 
             
             }
             #text p{
-                width: 160%;
+                width: 100%;
 
             }
 
