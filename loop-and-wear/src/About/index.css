@@ -25,10 +25,8 @@ span{
 
 
 }
-.about{
-padding-top: 7%;
-}
-@media screen and (min-width:280px) and (max-width:350px){
+
+@media screen and (min-width:200px) and (max-width:300px){
 
       #aboutus{
         display:grid;
@@ -56,14 +54,45 @@ padding-top: 7%;
       #text{
         padding-top: 1px;
         font-size:14px ;
-        width: 94%; 
+        width: 120%; 
         padding-left: 10px;   
      
        
         
     }
+    #text p{
+      font-size: 20px; 
+      width: 90%;
+
+    }
 }
 
+@media screen and (min-width:414px) and (max-width:514px){
+    #aboutus{
+        display:grid;
+        gap: 10px;
+        justify-content: center;
+    }
+    .globe{
+        height: 500px;
+        width: 500px;
+        padding-left: 20%;
+        
+    }
+    span{
+        color: rgb(125,171,8); 
+        padding-left:30%;
+        font-size:60px ;
+      }
+      #text p{
+        padding-top: 1%;
+        font-size:20px ;
+        /* margin-left: 2px; */
+        width: 90%;
+    }
+
+
+}
    
     @media screen and (min-width:1024px) and (max-width:1366px){
         #aboutus{
@@ -89,7 +118,17 @@ padding-top: 7%;
             margin-right: 20px;
             padding-left:96px ;
             
+            
         }
+        .homepage{
+            width: 100%;
+
+        }
+        .about{
+            padding-left: 5%;
+
+        }
+
 
 
     }
@@ -134,7 +173,7 @@ padding-top: 7%;
             font-size:40px ;
           }
           #text{
-            padding-top: 1%;
+            padding-top: 2%;
             font-size: 20px;
 
             
@@ -169,32 +208,40 @@ padding-top: 7%;
         .about{
             padding-top: 1%;
             }
+            #text p{
+                font-size: 19px;
+
+            }
     
         }
-        @media screen and (min-width:768px) and (max-width:1024px){
+        @media screen and (min-width:768px) and (max-width:912px){
             #aboutus{
-                display:grid;
+                display:flex;
                 gap: 10px;
                 
             }
             .globe{
                 height: 400px;
                 width: 400px;
-                padding-left: 24%;
+                padding-left: 4%;
                 
             }
             span{
                 color: rgb(125,171,8); 
-                padding-left:38%;
+                padding-left:45%;
                 font-size:44px ;
             
             }
             #text{
-                padding-top: 1%;
+                padding-top: 2%;
                 font-size: 24px;
-                width: 97%;
-                padding-left: 4%;
+                padding-left: 3%;
             
+            }
+            #text p{
+                width: 130%;
+
+
             }
             
 
@@ -229,17 +276,18 @@ padding-top: 7%;
 
             
             }
+            
 
         }
         @media screen and (min-width:820px) and (max-width:1180px){
             #aboutus{
-                display:grid
+                display:flex;
                 
             }
             .globe{
-                height: 400px;
-                width: 440px;
-                padding-left: 20%;
+                height: 350px;
+                width: 540px;
+                padding-left: 0%;
                 
             }
             span{
@@ -255,6 +303,10 @@ padding-top: 7%;
                 padding-left: 4%;
             
             }
+            #text p{
+                width: 120%;
+
+            }
 
             
 
@@ -266,6 +318,7 @@ padding-top: 7%;
                 padding-top: 5%;
                 
             }
+
             .globe{
                 height: 350px;
                 width: 400px;
@@ -291,4 +344,39 @@ padding-top: 7%;
             }
 
         }
+        @media only screen and (min-device-width: 912px) and (max-device-width: 1113px) {
+            #aboutus{
+                display:flex;
+                justify-content: center;
+                padding-top: 5%;
+                
+            }
+            .globe{
+                height: 350px;
+                width: 400px;
+                padding-left: 3%;
+                
+            }
+            span{
+                color: rgb(125,171,8); 
+                padding-left :47%;
+                font-size:40px ;
+                
+
+            
+            }
+            #text{
+                padding-top:1% ;
+                /* width: 90%; */
+               
+
+            
+            }
+            #text p{
+                width: 160%;
+
+            }
+
+        }
+
        

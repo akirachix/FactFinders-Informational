@@ -31,7 +31,7 @@ const Homepage =() =>{
       <div className="container">
       
         <div id='details'>
-        <h7>Loop & Wear</h7>
+        <h1>Loop & Wear</h1>
         
         <div id='detail-explanation'>
         <p>Revive, reimagine and reuse the art
