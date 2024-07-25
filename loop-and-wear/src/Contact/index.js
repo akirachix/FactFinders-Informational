@@ -2,41 +2,42 @@ import './index.css'
 
 const Contact=()=>{
     return(
-    <div className = "container">
-        <p id = "contact">Contact Us</p>
-<div className='topcontact'>     
+    <div>
+     <h11>Contact Us</h11>
+<div>
+    <div className='topcontact'>     
     <div className='location'>
             <img src='/images/location.png' alt='' id="locations"/>
          <div className='locations'>
-                <h3>Office Address</h3>
+                <p>Office Address</p>
                 <p>Ndege Road 616</p>
                 <p>Karen</p>
           </div>
         </div><br></br>
     <div className='mail'>
           <img src='/images/email.png' alt='' id="mailing"/>
-          <div className='mails'>
-                <h3>Mail for Information</h3>
+          <div id='mails'>
+                <p>Mail for Information</p>
                 <p>hr@loopandwear.com</p>
           </div>
           </div><br></br>
     <div className='call'>
           <img src='/images/call.jpeg' alt='' id="calling"/>
-             <div id='call'>
-             <h3>Call For Help</h3>
-             <p  >+254 707071167</p>
-             <p >+254 716752733</p>
+             <div id='calls'>
+             <p>Call For Help</p>
+             <p>+254 707071167</p>
+             <p>+254 716752733</p>
              </div>
           </div>
     </div>
 
     <div className='form'>
         
-        <img src='/images/form.png' alt='' id="formpicture"/>
+    <img src='/images/form.png' alt='' id="formpicture"/>
         
 <form >
         <div className='contactform'>
-            <h1 id="feelfrees">Feel free to contact us</h1>
+            <h9 id="feelfrees">Feel free to contact us</h9>
             <p  id="paragraph">Do you have a question? Simply drop us a message, and 
             </p>
           
@@ -82,21 +83,21 @@ const Contact=()=>{
     </div>
 
 <div className='footer'>
-    <div className='connect-footer'>
+    <div id='connect-footer'>
         <div id="connect">
         <p>Connect With Us</p> 
         </div>
             
             <div id="icons">
-            <img src='/images/instagram.png' alt='' className="instagram"/>
-            <img src='/images/facebook.png' alt='' className="facebook"/> 
-            <img src='/images/linkedin.png' alt='' className="linkedin"/> 
-            <img src='/images/twitter.png' alt='' className='twitter'/>  
+      
+            <img src='/images/facebook50.png' alt='' className="facebook"/> 
+            <img src='/images/linkedin50.png' alt='' className="linkedin"/> 
+            <img src='/images/twitter11.png' alt='' className='twitter'/>  
 
             </div>
         </div>
 
-        <div className='copyright'>
+        <div id='copyright'>
             <div>
             <p>Copyright  © 2024 LoopandWear | All Rights Reserved</p>
             </div>
@@ -104,6 +105,8 @@ const Contact=()=>{
         </div>
 </div>
 </div>
+
+</div>
     )
 }
-export default Contact
+export default Contact;

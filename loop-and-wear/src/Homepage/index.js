@@ -9,7 +9,6 @@ const Homepage =() =>{
   };
   return (
     <div className='home-page'>
-  
       <div className="navbar">
         <div className="navbar-logo">
           <img src="/images/logo.png" alt="Logo" id="logo" />
@@ -38,7 +37,6 @@ const Homepage =() =>{
         of upcycling for your garment.</p>
         </div>
   
-     
 
        <button id="button"><b>Let's Make It Happen</b></button>
         </div>

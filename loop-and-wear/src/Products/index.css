@@ -1,5 +1,5 @@
 .bag-chondo-lizarddoll{
-    margin-left: 220px;
+    margin-left: 20px;
     display: flex;
     gap: 90px;
     margin-top: 30px;
@@ -40,13 +40,13 @@
 h8{
     color: #7DAB08;
     font-size: 48px;
-    margin-left: 800px;
+    margin-left: 600px;
     margin-top: 0px;
 
 }
 
 h4{
-    margin-left: 600px;
+    margin-left: 400px;
     font-size: 48px;
     color: #7DAB08; 
 }
@@ -55,7 +55,7 @@ h3{
     font-size: 36px;
 }
 .upcycling-explanation{
-    margin-left: 180px;
+    margin-left: 140px;
 
     background-color: aliceblue;
 }
@@ -70,7 +70,7 @@ h3{
 #recycle-bin{
     display: flex;
     gap: 150px;
-    margin-left: 170px;
+    margin-left: 105px;
 }
 #bin-explanation{
     font-size: 28px;
@@ -86,14 +86,14 @@ h3{
     display: flex;
     gap: 150px;
     font-size: 20px;
-    margin-left: 200px;
+    margin-left: 120px;
 
 }
 #recycled-bulb{
     display: flex;
     gap: 130px;
     font-size: 20px;
-    margin-left: 200px;
+    margin-left: 120px;
 
 }
 #bin{
@@ -113,12 +113,13 @@ h3{
 
 
 @media  screen and (min-width:280px) and (max-width: 460px) {
+  
     .products-images{
         justify-content: space-between; 
         font-size: 20px;
         color: #7DAB08;
         height: 300px;
-        margin-top: 0px;
+        margin-top:0px;
         width: 280px;
         margin-top: 40px;
         background-color:#f5dfd1 ;
@@ -238,6 +239,9 @@ h3{
     }
 }
 @media  screen and (min-width:360px) and (max-width: 400px) {
+    body{
+        width: 2600px;
+    }
     .bag-chondo-lizarddoll{
         margin-left: 0px;
         display: flex;
@@ -358,6 +362,9 @@ h3{
     }
 }
 @media  screen and (min-width:412px) and (max-width: 413px) {
+    body{
+        width: 1400px;
+    }
     .products-images{
         justify-content: space-between; 
         font-size: 20px;
@@ -373,6 +380,10 @@ h3{
 }
 
 @media  screen and (min-width:768px) and (max-width: 912px) {
+    body{
+        width: 1400px;
+    }
+
     .products-images{
         justify-content: space-between; 
         font-size: 20px;
@@ -503,6 +514,9 @@ h3{
     }
 }  
 @media  screen and (min-width:901px) and (max-width: 912px) {
+    body{
+        width: 1400px;
+    }
     .products-images{
         
         font-size: 20px;
@@ -620,6 +634,9 @@ h3{
 }
 
 @media  screen and (min-width:461px) and (max-width: 767px) {
+    body{
+        width: 1400px;
+    }
     .products-images{
         
         font-size: 20px;
@@ -751,6 +768,9 @@ h3{
 }
 }
 @media  screen and (min-width:820px) and (max-width: 900px) {
+    body{
+        width: 1400px;
+    }
     .products-images{
         
         font-size: 20px;

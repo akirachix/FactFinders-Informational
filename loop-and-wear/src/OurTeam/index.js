@@ -13,7 +13,7 @@ const OurTeam = () => {
                 <div className='images'>
 
             <div>
-               <img src= "/images/kame.png" alt='member-one'/>
+               <img src= "/images/kame.png" alt='member-one' id='member'/>
                <div className='caption'>
                 <h5>Kame Bashuna</h5>
                 <p>Software Developer</p>
@@ -21,7 +21,7 @@ const OurTeam = () => {
             </div>
 
                 <div>
-                <img src="/images/faith.png" alt='member-two'/>
+                <img src="/images/faith.png" alt='member-two' id="member"/>
                 <div className='caption'>
                 <h5>Faith Munyao</h5>
                 <p>Software Developer</p>
@@ -29,7 +29,7 @@ const OurTeam = () => {
                 </div>
 
                 <div>
-                <img src="/images/eshe.png" alt='member-three'/>
+                <img src="/images/eshe.png" alt='member-three' id='member'/>
                 <div className='caption'>
                     <h5>Eshe Aziz</h5>
                     <p>Software Developer</p>
@@ -40,7 +40,7 @@ const OurTeam = () => {
             <div className='image-bottom'>
 
                 <div>
-                <img src='/images/edna.png'alt='member-four'/>
+                <img src='/images/edna.png'alt='member-four' id='members'/>
                 <div className='caption'>
                     <h5>Edna Kesa</h5>
                     <p>Software Developer</p>
@@ -48,7 +48,7 @@ const OurTeam = () => {
                 </div>
 
                 <div>
-                <img src='/images/susan.png' alt='member-five'/>
+                <img src='/images/susan.png' alt='member-five' id='members'/>
                 <div className='caption'>
                     <h5>Susan Masaku</h5>
                     <p>Software Developer</p>
