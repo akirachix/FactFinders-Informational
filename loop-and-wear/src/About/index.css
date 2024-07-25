@@ -311,7 +311,7 @@ span{
             
 
         } */
-        @media screen and (min-width:1024px) and (max-width:1100){
+        @media screen and (min-width:1024px) and (max-width:1050){
             #aboutus{
                 display:flex;
                 justify-content: center;
@@ -342,9 +342,12 @@ span{
 
             
             }
+            #text p{
+                font-size: small;
+            }
 
         }
-        @media only screen and (min-device-width: 912px) and (max-device-width: 1113px) {
+        @media only screen and (min-device-width: 1280px) and (max-device-width: 1300px) {
             #aboutus{
                 display:flex;
                 justify-content: center;
@@ -371,7 +374,9 @@ span{
             
             }
             #text p{
-                width: 100%;
+                width: 80%;
+                font-size: large;
+
 
             }
 

@@ -243,9 +243,9 @@ h3{
         width: 80%;  
     }
     .upcycling-explanation{
-        margin-left: 50px;
+        margin-left: 30px;
         gap: 0px;
-        width: 100%;  
+        width: 80%;  
     }
 }
 @media  screen and (min-width:375px) and (max-width: 400px) {
@@ -264,7 +264,7 @@ h3{
         color: #7DAB08;
         height: 300px;
         margin-top: 0px;
-        width: 390px;
+        width: 395px;
         background-color:#f5dfd1 ;
     
     }
@@ -943,7 +943,7 @@ h3{
 .upcycling-explanation{
     margin-left: 40px;
     gap: 0px;
-    width: 90%;  
+    width: 70%;  
 }
 }
 @media  screen and (min-width:820px) and (max-width: 900px) {
@@ -1115,7 +1115,7 @@ h3{
 
 
 }
-@media  screen and (min-width:1024px) and (max-width: 1279px) {
+@media  screen and (min-width:1024px) and (max-width: 1050px) {
     .bag-chondo-lizarddoll{
         margin-left: 40px;
         display: flex;
@@ -1231,7 +1231,7 @@ h3{
 
 
 }
-@media  screen and (min-width:1280px) and (max-width: 1380px) {
+@media  screen and (min-width:1280px) and (max-width: 1300px) {
 
     .bag-chondo-lizarddoll{
         margin-left: 50px;
@@ -1247,31 +1247,31 @@ h3{
         height: 900px;
         margin-top: 0px;
         background-color:#f5dfd1 ;
-        width: 1200px;
+        width: 1168px;
     
     }
     #chondo{
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
     }
     #backbag{
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
     }
     #lizard{
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
     }
  
     #pillow{
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
         border-radius: 100px;
     
     }
     #fish{
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
         border-radius: 100px;
     
     }
