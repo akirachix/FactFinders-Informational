@@ -20,18 +20,18 @@ const Homepage =() =>{
           <span></span>
         </div>
         <ul className={`navbar-content ${isMenuOpen ? 'active' : ''}`}>
-          <li><a href="#">Home</a></li>
-          <li><a href="#"> About Us</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Team</a></li>
-          <li><a href="#">Contact Us</a></li>
+          <li><a href="home">Home</a></li>
+          <li><a href="about"> About Us</a></li>
+          <li><a href="services">Products</a></li>
+          <li><a href="team">Team</a></li>
+          <li><a href="contact us">Contact Us</a></li>
         </ul>
       </div>
 
       <div className="container">
       
         <div id='details'>
-        <h7>Loop & Wear</h7>
+        <h1>Loop & Wear</h1>
         
         <div id='detail-explanation'>
         <p>Revive, reimagine and reuse the art
